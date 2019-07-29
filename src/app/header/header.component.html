@@ -1,0 +1,75 @@
+<mat-card class="topheader">
+  <mat-card-content>
+    Call us at <a href="tel:000.000.0000">000.000.0000</a>
+
+  </mat-card-content>
+</mat-card>
+
+<mat-card class="topheader_menu">
+  <mat-card-content class="topheader_menu_wrapper">
+    <a [routerLink]="['/']"><img src="../../assets/images/logo.png" alt="" class="logo"></a>
+
+    <mat-card-subtitle>
+      <button mat-icon-button (click)="toggleNavbar()" fxShow="true" fxHide.gt-sm><mat-icon>menu</mat-icon></button>
+      <span class="menu-spacer"></span>
+
+ <span fxShow="true" class="smlmenudiv" [ngClass]="{ 'show': navbarOpen }">
+      <mat-nav-list fxLayout>
+
+        <mat-list-item fxFlex >
+         <a [routerLink]="['/']"> Home</a>
+        </mat-list-item>
+
+        <mat-list-item fxFlex>
+           <a [routerLink]="['/']">Platform Features </a>
+        </mat-list-item>
+
+        <mat-list-item fxFlex>
+           <a [routerLink]="['/']">The Difference  </a>
+         </mat-list-item>
+
+        <mat-list-item fxFlex>
+          <a [routerLink]="['/']">Big Data  </a>
+        </mat-list-item>
+
+        <mat-list-item fxFlex>
+          <a [routerLink]="['/']">Commercial GEO   </a>
+        </mat-list-item>
+
+        <mat-list-item fxFlex>
+          <a [routerLink]="['/']">Mobile Marketing   </a>
+        </mat-list-item>
+
+        <mat-list-item fxFlex>
+          <a [routerLink]="['/']">Our Team  </a>
+        </mat-list-item>
+
+        <mat-list-item fxFlex>
+          <a [routerLink]="['/']">Get Started  </a>
+        </mat-list-item>
+
+
+        <mat-list-item fxFlex>
+          <a [routerLink]="['/']">Contact</a>
+        </mat-list-item>
+
+        <mat-card-content class="clear"></mat-card-content>
+
+      </mat-nav-list>
+
+
+</span>
+
+
+    </mat-card-subtitle>
+
+    <a [routerLink]="['/']" class="signuplink">  Sign Up</a>
+
+
+
+
+
+    <mat-card-content class="clear"></mat-card-content>
+  </mat-card-content>
+
+</mat-card>
