@@ -6,39 +6,158 @@
 .textwrapper h1{font-size: 36px; font-family: 'MontserratBold'; color: #393c3f; text-transform: uppercase; margin-top: 0;}
 .textwrapper h1 span{font-size: 30px; font-family: 'MontserratMedium'; color: #82878b; display: block;font-weight: normal; padding: 10px 0;}
 .textwrapper h1 strong{font-family: 'LatoBlack'; color: #121514; display: block;}
-.textwrapper p{font-family: 'LatoRegular'; color: #82878b; font-size: 20px;}
+.textwrapper p{font-family: 'LatoRegular'; color: #82878b; font-size: 20px;line-height: 30px;}
 .textwrapper h2{font-size: 30px; font-family: 'MontserratBold'; color: #ffffff; text-align: center;}
 
 .topbannerblock .textwrapper h1{width: 726px; margin: 0 auto;font-size: 40px; color: #ffffff;text-align: center;}
 .topbannerblock .textwrapper h2{padding: 0 142px;}
 
 .listwrapper{display: flex; width: 100%; justify-content: space-between;}
-.homeblock2{background-image:url("../../assets/images/homeimg3.png"); background-repeat: no-repeat; background-size: contain; position: relative; padding-top: 65px;padding-left: 0; padding-right: 0; background-position: center bottom;padding-bottom: 45px;}
+.homeblock2{background-image:url("../../assets/images/homeimg3.png"); background-repeat: no-repeat; background-size: 100% 55%; position: relative; padding-top: 65px;padding-left: 0; padding-right: 0; background-position: center bottom;padding-bottom: 45px;}
 
 .col-2{width: 50% !important;height: auto !important;}
 .col-5{width: 20% !important;height: auto !important;}
+.col-8{width: 12.5% !important;height: auto !important;}
+.col-2 img{max-width: 100%;}
 .homeblock2 .listwrapper .textwrapper p{border-left: 6px solid #00bfff; padding-left: 20px;}
 .imgwrapper{height: 110px; width: 110px; border-radius: 50%; background-color: #ffffff;position: relative; display: flex; align-items: center; justify-content: center;margin-bottom: 25px;}
 .imgwrapper img{max-width: 100%;}
 .listtextwrapper{color: #5c5e5f; font-family: 'LatoBold'; font-size: 18px;width: 100%; text-align: center;}
 .listtextwrapper b{font-weight: normal; font-size: 14px; display: block;}
+.homeblock3 .textwrapper h1{ color: #33333a; text-align: center;}
+.homeblock3 .textwrapper p{color: #454c4f; text-align: center; padding: 0 379px;}
+.homeblock3{background-image:url("../../assets/images/homepagebanner2.jpg"); background-repeat: no-repeat; background-size: cover; position: relative; padding: 70px 0;padding-left: 0; padding-right: 0; background-position: center top;}
 
+.homeblock4{background-image:url("../../assets/images/homepagebanner3.jpg"); background-repeat: no-repeat; background-size: cover; position: relative; padding-left: 0; padding-right: 0; background-position: right top; min-height: 300px; display: flex !important; align-items: center;}
+.homeblock4 .textwrapper h2{text-align: left; font-size: 30px; font-family: 'LatoBold';padding-right: 27%;}
+.homeblock4 .textwrapper p{color: #fff; font-size: 24px; width: 470px;}
+
+.homeblock5{background-image:url("../../assets/images/homepagebanner4.png"); background-repeat: no-repeat; background-size: cover; position: relative; padding-top: 75px; padding-left: 0; padding-right: 0; background-position: center top; min-height: 790px;}
+.homeblock5 .textwrapper h1{text-align: center; color: #020820;}
+.homeblock5 .textwrapper p{text-align: center; padding: 0 165px; color: #020820;}
+
+
+.homeblock6 .listwrapper .imgwrapper{background-color: #051532; border: 7px solid #3c4143; box-shadow: 0 0 10px #000;}
+
+.homeblock6{background-image:url("../../assets/images/homepagebanner5.png"); background-repeat: no-repeat; background-size: cover; position: relative; padding-top: 75px; padding-left: 0; padding-right: 0; background-position: center top; padding-bottom: 50px; }
+.homeblock6 .textwrapper h1{color: #fff; text-align: center; margin-bottom: 65px;}
+.homeblock6 .listtextwrapper{color: #fff;font-size: 15px; }
+.homeblock6 .listwrapper {justify-content: center;flex-wrap: wrap;}
+.homeblock6 .col-8{margin-bottom: 35px;width: 185px !important;}
+
+.blackbtn{background-color: #33333a; color: #ffffff; border-radius: 0px; font-size: 20px; font-family: 'LatoRegular'; padding: 10px 50px; border: 0;}
+
+
+.homeblock7{background-image:url("../../assets/images/homepagebanner6.png"); background-repeat: no-repeat; background-size: cover; position: relative; padding-left: 0; padding-right: 0; background-position: center top; min-height: 340px; display: flex !important; align-items: center;}
+
+.homeblock7 .blackbtn{margin-top: 20px;}
+.homeblock7 .textwrapper{text-align: center;}
+.homeblock7 .textwrapper p{padding: 0 230px; color: #454c4f;}
+/*---------------------------- media css start ---------------------------*/
+
+
+
+
+@media only screen and (max-width: 1640px) {
+    .homeblock4 {background-position: right -181px top;}
+}
+@media only screen and (max-width: 1540px) {
+    .homeblock5 .textwrapper p {padding: 0 251px;}
+    .homeblock2{background-size: 100% 52%;}
+    .textwrapper h1 {font-size: 30px;}
+}
 
 @media only screen and (max-width: 1520px) {
     .container{width: 94%;}
+    .homeblock6 .col-8 {width: 220px !important;}
 }
 
+@media only screen and (max-width: 1440px) {
+    .homeblock5 .textwrapper p {
+        padding: 0 121px;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    .homeblock3 .textwrapper p {padding: 0 300px;}
+}
+@media only screen and (max-width: 1340px) {
+    .homeblock2 {background-size: 100% 48%;padding-top: 45px;}
+}
+@media only screen and (max-width: 1300px) {
+    .homeblock7 .textwrapper p {padding: 0 149px;}
+    .textwrapper p {font-size: 18px; line-height: 28px;}
+    .homeblock2 {background-size: 100% 51%;}
+}
+@media only screen and (max-width: 1280px) {
+    .homeblock4 {background-position: right -314px top;}
+    .homeblock3 .textwrapper p {
+        padding: 0 265px;
+    }
+}
+@media only screen and (max-width: 1260px) {
+    .homeblock2 {background-size: 100% 53%;}
+}
+@media only screen and (max-width: 1240px) {
+    .homeblock2 {background-size: 131% 52%;}
+    .listtextwrapper {font-size: 16px;}
+}
+
+
+@media only screen and (max-width: 1199px) {
+    .homeblock7 .textwrapper p {padding: 0 64px;}
+    .homeblock5 {padding-top: 45px;}
+    .homeblock4 {
+        background-position: right top;
+        background-image: url(../../assets/images/homepagebanner03.jpg);
+        padding-bottom: 2%;
+        padding-top: 34%;
+        background-size: 104%;
+        background-color: #022e48;
+        min-height: auto;
+    }
+    .homeblock6 {padding-top: 45px;padding-bottom: 20px;}
+    .homeblock6 .textwrapper h1 {margin-bottom: 45px;}
+    .homeblock4 .textwrapper h2 {padding-right: 0;text-align: center;}
+    .homeblock4 .textwrapper p {width: 100%; text-align: center;}
+    .homeblock3 {
+        background-image: url(../../assets/images/homepagebanner02.jpg); padding: 2% 0; padding-top: 68%;background-color: #a7dbf0;background-size: 118%;}
+    .homeblock3 .textwrapper p {padding: 0;}
+    .bimg1{margin-top: -20px;}
+    .col-2 {width: 100% !important;}
+    .listwrapper {flex-wrap: wrap; justify-content: center;}
+    .homeblock2 {background-size: 347% 41%; padding-top: 0;}
+    .textwrapper h1 {text-align: center;}
+    .homeblock2 .listwrapper .textwrapper p {border-left: 0px solid #00bfff;padding-left: 0px; text-align: center;padding-bottom: 60px;}
+}
 @media only screen and (max-width: 991px) {
+    .homeblock6 {background-image: linear-gradient(#03071b, #0c2842);}
+    .homeblock7 .textwrapper p {padding: 0;}
+    .homeblock5 .textwrapper p {padding: 0;}
+    .col-5 {width: 33% !important;  margin-bottom: 20px;}
+    .homeblock2 {background-size: 562% 54%;}
     .topbannerblock .textwrapper h2 {padding: 0 41px;}
     .bannerimgwrapper {position: relative;left: 0;transform: inherit; text-align: center;}
     .bannerimgwrapper img{max-width: 100%;}
     .topbannerblock {padding-bottom: 0px;padding-top: 42px;}
 }
+
 @media only screen and (max-width: 767px){
+    .homeblock5:after{position: absolute; left: 0; top: 0; content: ''; height: 100%; width: 100%; background-image: linear-gradient(#ffffff99, #ffffff99, transparent);}
+    .homeblock5 .textwrapper{position: relative; z-index: 9;}
+    .homeblock2 {background-size: 767% 63%;}
+    .col-5 {width: 50% !important;}
     .topbannerblock .textwrapper h1 {width: 100%;}
     .topbannerblock .textwrapper h2 {padding: 0 0;}
 }
 
+@media only screen and (max-width: 560px){
+    .col-5 {width: 100% !important;}
+    .homeblock2 {background-size: 767% 77%;}
+}
+@media only screen and (max-width: 480px){
+    .homeblock5:after {background-image: linear-gradient(#ffffff00, #ffffff, #00000038);}
+    .homeblock5 {min-height: inherit; padding-bottom: 363px;}
+}
 
 
 

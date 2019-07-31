@@ -21,7 +21,6 @@ body{ margin: 0; padding: 0;}
 }
 
 @font-face {
-<<<<<<< HEAD
     font-family: 'MontserratRegular';
     src: url('../font/Montserrat-Regular.eot');
     src: url('../font/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
@@ -33,8 +32,6 @@ body{ margin: 0; padding: 0;}
     font-style: normal;
 }
 @font-face {
-=======
->>>>>>> d72c8050594e5b8055a262728474d6c4051a24db
     font-family: 'LatoBlack';
     src: url('../font/Lato-Black.eot');
     src: url('../font/Lato-Black.eot?#iefix') format('embedded-opentype'),
@@ -45,7 +42,7 @@ body{ margin: 0; padding: 0;}
     font-weight: 900;
     font-style: normal;
 }
-<<<<<<< HEAD
+
 @font-face {
     font-family: 'MontserratMedium';
     src: url('../font/Montserrat-Medium.eot');
@@ -57,7 +54,6 @@ body{ margin: 0; padding: 0;}
     font-weight: 500;
     font-style: normal;
 }
-=======
 
 
 @font-face {
@@ -103,8 +99,6 @@ body{ margin: 0; padding: 0;}
     font-style: normal;
 }
 
->>>>>>> d72c8050594e5b8055a262728474d6c4051a24db
-
 .loder_body{ width: 100%; height: 100vh;  position: fixed; left: 0; top: 0; background-color: #f0f0f4; z-index: 99;}
 
 
@@ -125,7 +119,7 @@ body{ margin: 0; padding: 0;}
     100% { transform: rotate(360deg); }
 }
 
-
+.listwrapper .mat-list-item-content{flex-wrap: wrap;justify-content: center;padding: 0 5px !important;}
 .topheader{ border: none!important; border-top: solid 2px #fff!important; box-shadow: none!important; padding:10px 0px!important; margin: 0px!important; border-radius: 0px!important; background: #f0f0f4!important;}
 
 .topheader .mat-card-content{ width: 1408px; margin: 0 auto; text-align: right;  font-family: 'LatoRegular'; font-size: 14px; color: #46484a;}
