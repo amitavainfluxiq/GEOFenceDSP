@@ -1,0 +1,84 @@
+.mat-card{ box-shadow: none !important; border-radius: 0 !important;}
+.container{width: 1485px; margin: 0 auto; display: block;}
+.topbannerblock{background-image:url("../../assets/images/homepagebanner1.jpg"); padding-bottom: 273px; background-repeat: no-repeat; background-size: cover; position: relative; padding-top: 88px;padding-left: 0; padding-right: 0; background-position: center center;}
+.bannerimgwrapper {position: absolute;left: 50%;transform: translatex(-50%); bottom: -14px;}
+
+.textwrapper h1{font-size: 36px; font-family: 'MontserratBold'; color: #393c3f; text-transform: uppercase; margin-top: 0;}
+.textwrapper h1 span{font-size: 30px; font-family: 'MontserratMedium'; color: #82878b; display: block;font-weight: normal; padding: 10px 0;}
+.textwrapper h1 strong{font-family: 'LatoBlack'; color: #121514; display: block;}
+.textwrapper p{font-family: 'LatoRegular'; color: #82878b; font-size: 20px;}
+.textwrapper h2{font-size: 30px; font-family: 'MontserratBold'; color: #ffffff; text-align: center;}
+
+.topbannerblock .textwrapper h1{width: 726px; margin: 0 auto;font-size: 40px; color: #ffffff;text-align: center;}
+.topbannerblock .textwrapper h2{padding: 0 142px;}
+
+.listwrapper{display: flex; width: 100%; justify-content: space-between;}
+.homeblock2{background-image:url("../../assets/images/homeimg3.png"); background-repeat: no-repeat; background-size: contain; position: relative; padding-top: 65px;padding-left: 0; padding-right: 0; background-position: center bottom;padding-bottom: 45px;}
+
+.col-2{width: 50% !important;height: auto !important;}
+.col-5{width: 20% !important;height: auto !important;}
+.homeblock2 .listwrapper .textwrapper p{border-left: 6px solid #00bfff; padding-left: 20px;}
+.imgwrapper{height: 110px; width: 110px; border-radius: 50%; background-color: #ffffff;position: relative; display: flex; align-items: center; justify-content: center;margin-bottom: 25px;}
+.imgwrapper img{max-width: 100%;}
+.listtextwrapper{color: #5c5e5f; font-family: 'LatoBold'; font-size: 18px;width: 100%; text-align: center;}
+.listtextwrapper b{font-weight: normal; font-size: 14px; display: block;}
+
+
+@media only screen and (max-width: 1520px) {
+    .container{width: 94%;}
+}
+
+@media only screen and (max-width: 991px) {
+    .topbannerblock .textwrapper h2 {padding: 0 41px;}
+    .bannerimgwrapper {position: relative;left: 0;transform: inherit; text-align: center;}
+    .bannerimgwrapper img{max-width: 100%;}
+    .topbannerblock {padding-bottom: 0px;padding-top: 42px;}
+}
+@media only screen and (max-width: 767px){
+    .topbannerblock .textwrapper h1 {width: 100%;}
+    .topbannerblock .textwrapper h2 {padding: 0 0;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
