@@ -22,6 +22,7 @@ import { FooterComponent } from './footer/footer.component';
 import { CommercialComponent } from './commercial/commercial.component';
 import { DifferenceComponent } from './difference/difference.component';
 import { MobilemarketingComponent } from './mobilemarketing/mobilemarketing.component';
+import { OurteamComponent } from './ourteam/ourteam.component';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { MobilemarketingComponent } from './mobilemarketing/mobilemarketing.comp
     FooterComponent,
     CommercialComponent,
     DifferenceComponent,
-    MobilemarketingComponent
+    MobilemarketingComponent,
+    OurteamComponent
   ],
   imports: [
     DemoMaterialModule,

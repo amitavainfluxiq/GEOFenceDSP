@@ -177,6 +177,7 @@ body{ margin: 0; padding: 0;}
 
 .mat-form-field-appearance-legacy .mat-form-field-infix {
     padding:  0!important;
+    border-top: .3em solid transparent;
 }
 
 .mat-form-field-appearance-legacy .mat-form-field-label {

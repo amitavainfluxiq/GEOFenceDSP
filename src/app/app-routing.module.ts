@@ -8,17 +8,19 @@ import {HomeComponent} from '../app/home/home.component'
 import { CommercialComponent } from './commercial/commercial.component';
 import { DifferenceComponent } from './difference/difference.component';
 import { MobilemarketingComponent } from './mobilemarketing/mobilemarketing.component';
+import { OurteamComponent } from './ourteam/ourteam.component';
 
 
 
 
 const appRoutes: Routes = [
-
     {path:'', component: HomeComponent},
+    {path:'home', component: HomeComponent},
     {path:'commercialGEO', component: CommercialComponent},
     {path:'contactus', component: ContactusComponent},
-    {path:'the_difference', component: DifferenceComponent},
+    {path:'thedifference', component: DifferenceComponent},
     {path:'mobilemarketing', component: MobilemarketingComponent},
+    {path: 'ourteam', component: OurteamComponent}
 
 
 ];

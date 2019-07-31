@@ -1,0 +1,13 @@
+.mat-card{ border-radius: 0!important; box-shadow: none!important; padding: 0!important; }
+
+.diff_block1 {
+  background:  url("/assets/images/differenceTopblok1bg.jpg") no-repeat!important;
+  background-position: center!important;
+  background-size: cover!important;
+  position: relative;
+  min-height: 460px;
+}
+
+.blk1_content_wrapper{ width: 1200px;  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;}
+.blk1_content_wrapper .blk1_title{ font-family: "MontserratBold"; font-size: 40px; color: #fff; margin-bottom: 40px; text-transform: uppercase; }
+.blk1_content_wrapper .blk1_subtitle{ font-family: "MontserratBold"; font-size: 28px; color: #fff; line-height: 34px;}
