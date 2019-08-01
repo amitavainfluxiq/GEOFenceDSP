@@ -120,6 +120,7 @@ body{ margin: 0; padding: 0;}
 }
 
 .listwrapper .mat-list-item-content{flex-wrap: wrap;justify-content: center;padding: 0 5px !important;}
+.comblock3 .listwrapper .mat-list-item-content{justify-content: flex-start;}
 .topheader{ border: none!important; border-top: solid 2px #fff!important; box-shadow: none!important; padding:10px 0px!important; margin: 0px!important; border-radius: 0px!important; background: #f0f0f4!important;}
 
 .topheader .mat-card-content{ width: 1408px; margin: 0 auto; text-align: right;  font-family: 'LatoRegular'; font-size: 14px; color: #46484a;}
