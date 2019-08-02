@@ -1,4 +1,7 @@
-.main_header{ width: 28%; margin: 50px auto; background: #e8e8e8; min-height: 290px; text-align: center;  border: 2px solid #45c0ff; display: flex; flex-direction: column;
+.main_header{ max-width:100%; width: 700px; margin: 0px auto; background: #e8e8e8; min-height: 290px; text-align: center;  border: 2px solid #45c0ff; display: flex; flex-direction: column;
   justify-content: center;  box-shadow: none!important;}
 .main_header .mat-card-title{ font-size: 30px; font-family: "LatoBold"; text-transform: uppercase;color: #24a5e1;     margin: 24px 0;}
-
+.main_header img{ max-width: 100%; }
+@media screen and (max-width: 991px){
+  .main_header{ max-width:100%; width: inherit;}
+}

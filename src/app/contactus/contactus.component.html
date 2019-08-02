@@ -27,6 +27,7 @@
           <mat-form-field>
             <input matInput  [formControl]="contactForm.controls['email']">
             <mat-error *ngIf="!contactForm.controls['email'].valid && contactForm.controls['email'].touched">Email is Required</mat-error>
+            <!-- <mat-error  *ngIf="!contactForm.controls['email'].valid && !contactForm.controls['email'].errors.required">Valid email</mat-error> -->
           </mat-form-field>
 
           <mat-label>Phone Number</mat-label>
@@ -39,7 +40,7 @@
           <mat-form-field>
             <mat-select  [formControl]="contactForm.controls['depertment']">
               <mat-option value="">Choose</mat-option>
-              <mat-option value="option">test</mat-option>
+              <mat-option value="option">Option</mat-option>
               <mat-option value="option">Option</mat-option>
             </mat-select>
             <mat-error *ngIf="!contactForm.controls['depertment'].valid && contactForm.controls['depertment'].touched"> Select Depertment </mat-error>
@@ -55,7 +56,7 @@
           <button mat-button class="submit_button">send</button>
 
         </form>
-
+          <p *ngIf="successModal == true"> success</p>
 
       </mat-card-content>
     </mat-card-content>
@@ -158,5 +159,7 @@
   </mat-card-subtitle>
 
 </mat-card>
+
+
 
 <app-footer></app-footer>

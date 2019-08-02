@@ -7,7 +7,7 @@ import{ FormBuilder, FormGroup, Validators } from '@angular/forms';
   styleUrls: ['./contactus.component.css']
 })
 export class ContactusComponent implements OnInit {
-
+  public successModal:any = false;
   public contactForm: FormGroup;
 
 
@@ -15,9 +15,9 @@ export class ContactusComponent implements OnInit {
 
     this.contactForm = this.fb.group({
       name: ['', Validators.required],
-      email: ['', Validators.required],
-      phoneNumber: ['', Validators.required],
       depertment: ['', Validators.required],
+      phoneNumber: ['', Validators.compose([Validators.required, Validators.pattern(/[0-9\+\-\ ]/)])],
+      email: ['', Validators.compose([Validators.required, Validators.pattern(/^\s*[\w\-\+_]+(\.[\w\-\+_]+)*\@[\w\-\+_]+\.[\w\-\+_]+(\.[\w\-\+_]+)*\s*$/)])],
       message: ['', Validators.required]
     })
    }
@@ -27,8 +27,9 @@ export class ContactusComponent implements OnInit {
 
   doSubmit(){
     if (this.contactForm.valid) {
-    console.log("submited");
-     this.contactForm.value;
+      let data:any = this.contactForm.value;
+      console.log( data );
+        this.successModal = true;
     }
     else{ console.log('error')}
   }

@@ -66,6 +66,7 @@
     }
 
 @media screen and (max-width : 1199px){
+  .topheader .mat-card-content {  text-align: center; }
     .topheader .mat-card-content{width:90%; }
 
     .topheader_menu .topheader_menu_wrapper{width:100%; flex-direction: column; }
