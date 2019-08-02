@@ -149,14 +149,14 @@ body{ margin: 0; padding: 0;}
 
 .topheader_menu{ border: none!important;   box-shadow: none!important; padding:10px 0px!important; margin: 0px!important; border-radius: 0px!important; background: #fff!important;}
 
-.topheader_menu .topheader_menu_wrapper{width: 1408px; margin: 0 auto; padding: 16px 0;}
+.topheader_menu .topheader_menu_wrapper{width: 1408px; margin: 0 auto; padding: 16px 0; display: flex;  align-items: center; }
 
 .topheader_menu .mat-card-content .logo{ width: 313px;  float: left;}
 
 
-.topheader_menu .mat-card-subtitle{ width: 875px; float: left; margin: 6px 0 0 75px!important;}
+.topheader_menu .mat-card-subtitle{ width: 875px; float: left; margin: 0px 0 0 75px!important;}
 
-.topheader_menu .mat-card-subtitle .mat-list-item{ display: inline-block; float: left!important; width: auto!important; height: auto!important;}
+.topheader_menu .mat-card-subtitle .mat-list-item{ display: inline-block; float: left!important; width: auto!important;   }
 
 .topheader_menu .mat-card-subtitle .mat-list-item a{ font-size: 14px; color: #8a8a8a; font-family: 'LatoRegular';}
 
@@ -171,7 +171,7 @@ body{ margin: 0; padding: 0;}
 .topheader_menu .mat-card-subtitle .active{ background: #42484c; color: #fff;}
 .topheader_menu .mat-card-subtitle .active a{   color: #fff;}
 
-.topheader_menu .signuplink{ display: inline-block; float: right; width: 127px; line-height: 28px; border: solid 2px #0c7c9c; border-radius: 5px; text-align: center; font-size: 14px; color: #047697;  font-family: 'LatoRegular'; text-decoration: none; margin: 6px 0 0 0;}
+.topheader_menu .signuplink{ display: inline-block; float: right; width: 127px; line-height: 28px; border: solid 2px #0c7c9c; border-radius: 5px; text-align: center; font-size: 14px; color: #047697;  font-family: 'LatoRegular'; text-decoration: none; margin: 0px 0 0 0; margin-left: auto;}
 
 .homeblock2 .mat-list-base .mat-list-item .mat-list-item-content {flex-wrap: wrap; justify-content: center;}
 

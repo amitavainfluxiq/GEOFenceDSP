@@ -23,6 +23,9 @@ import { CommercialComponent } from './commercial/commercial.component';
 import { DifferenceComponent } from './difference/difference.component';
 import { MobilemarketingComponent } from './mobilemarketing/mobilemarketing.component';
 import { OurteamComponent } from './ourteam/ourteam.component';
+import { BigdataComponent } from './bigdata/bigdata.component';
+import { PlatformfeaturesComponent } from './platformfeatures/platformfeatures.component';
+import { GetstartedComponent } from './getstarted/getstarted.component';
 
 
 @NgModule({
@@ -35,7 +38,10 @@ import { OurteamComponent } from './ourteam/ourteam.component';
     CommercialComponent,
     DifferenceComponent,
     MobilemarketingComponent,
-    OurteamComponent
+    OurteamComponent,
+    BigdataComponent,
+    PlatformfeaturesComponent,
+    GetstartedComponent
   ],
   imports: [
     DemoMaterialModule,

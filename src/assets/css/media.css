@@ -6,7 +6,7 @@
     .topheader_menu .mat-card-subtitle{  margin: 6px 0 0 30px!important;}
 
     .topheader_menu .mat-card-subtitle {
-        width: 834px}
+        width: 100%; }
 
     .topheader_menu .mat-list-item-content {
         padding: 8px 8px!important;
@@ -44,9 +44,7 @@
         padding: 8px 6px!important;
     }
 
-    .topheader_menu .mat-card-subtitle {
-        width: 800px;
-    }
+
 
     .topheader_menu .signuplink {
         width: 100px;
@@ -70,12 +68,12 @@
 @media screen and (max-width : 1199px){
     .topheader .mat-card-content{width:90%; }
 
-    .topheader_menu .topheader_menu_wrapper{width:100%; }
+    .topheader_menu .topheader_menu_wrapper{width:100%; flex-direction: column; }
 
 
     .topheader_menu .mat-card-content .logo { width:auto; max-width: 90%; display: block; margin: 0 auto; float: none;}
 
-    .topheader_menu .mat-card-subtitle{ width: 100%; float: none; margin: 10px 0 20px 0!important; background: #e2e2e2;}
+    .topheader_menu .mat-card-subtitle{ width: 100%; float: none; margin: 10px 0 20px 0!important; }
 
     .topheader_menu   .mat-list-item-content{ padding: 8px 10px!important;}
 
@@ -86,6 +84,7 @@
     .topheader_menu .mat-icon-button {
         display: block;
         margin: 0 auto;
+        background: #e2e2e2; border-radius: 5px;
     }
 
     .smlmenudiv{ display: none!important;}
