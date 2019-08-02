@@ -1,161 +1,98 @@
-.mat-card{ box-shadow: none !important; border-radius: 0 !important;}
-.container{width: 1408px; margin: 0 auto; display: block;}
-.comtopbannerblock{background-image:url("../../assets/images/teambanner1.jpg"); background-repeat: no-repeat; background-size: cover; position: relative;padding-left: 0; padding-right: 0; background-position: center center; min-height: 460px; display: flex !important; align-items: flex-end;}
-.bannerimgwrapper {position: absolute;left: 50%;transform: translatex(-50%); bottom: -14px;}
-
-.textwrapper h1{font-size: 36px; font-family: 'MontserratBold'; color: #393c3f; text-transform: uppercase; margin-top: 0;}
-.textwrapper h1 span{font-size: 30px; font-family: 'MontserratMedium'; color: #82878b; display: block;font-weight: normal; padding: 10px 0;}
-.textwrapper h1 strong{font-family: 'LatoBlack'; color: #121514; display: block;}
-
-.textwrapper p{font-family: 'LatoRegular'; color: #8d8d8d; font-size: 15px;line-height: 30px; padding-bottom: 45px;margin: 0;}
-.textwrapper p b{font-family: 'LatoBold'; color: #757575; font-size: 20px;}
-.textwrapper p i{color: #13181a; font-style: normal;}
-.textwrapper h3{font-family: 'LatoBold'; color: #4a4e54; font-size: 30px;margin: 0; padding-bottom: 45px;}
-.textwrapper h3 span{font-family: 'LatoSemibold'; color: #18abef; font-size: 18px; text-transform: uppercase;display: block;padding-top: 10px;}
-.textwrapper h4{font-family: 'LatoSemibold'; color: #727272; font-size: 20px; display: block; margin: 0;}
-.textwrapper h5{font-family: 'LatoMedium'; color: #757575; font-size: 20px; display: block; margin: 0;line-height: 31px;padding-bottom: 45px;font-weight: normal;}
-.textwrapper h5 span{font-family: 'Latobold'; color: #757575;}
-.textwrapper h5 strong{font-family: 'LatoBold'; color: #18abef; font-size: 20px;}
-.textwrapper h5 b{ color: #18abef; font-size: 20px; display: block; padding-top: 25px; font-weight: normal; text-transform: uppercase;}
-
-.comtopbannerblock .textwrapper h1{ margin: 0 auto;font-size: 40px; color: #ffffff;text-align: center;}
-.textwrapper h2{font-size: 30px; font-family: 'MontserratBold'; color: #ffffff; text-align: center;}
-.teamblock2{background-image: linear-gradient(#eaeaea, #fff, #e8e8e8); padding: 0; padding-top: 30px;}
-.images img{max-width: 100%;}
-.col-8{width: 52% !important;height: auto !important;}
-.col-2{width: 481px !important;height: auto !important;}
-.col-12{width: 100% !important;height: auto !important;}
-.listwrapper{display: flex; width: 100%; justify-content: space-between; flex-wrap: wrap;}
-.teamblock .col-2{background-color: #18abef;}
-.teamblock .col-2 .imgwrapper img{width: 100%;}
-.teamblock .col-2 .imgwrapper { display: inline-block; width: 100%;}
-.teamblock .col-2 .listtextwrapper{padding: 40px; text-align: left; color: #ffffff;}
-.teamblock .col-2 .listtextwrapper .mat-list .mat-list-item{height: auto; text-align: left; color: #ffffff;}
-.teamblock .col-2 .listtextwrapper .mat-list .mat-list-item{font-size: 18px; font-family: 'LatoMedium'; color: #ffffff; padding: 10px 0; padding-left: 35px; position: relative; width: auto;}
-.teamblock .col-2 .listtextwrapper .mat-list .mat-list-item:after{content: ''; position: absolute; left: 0; top: 15px; height: 13px; width: 13px; background-color: #ffffff;}
-.teamblock .col-8{background-color: #ffffff; border: 1px solid #cdcdcd; margin-bottom: 33px; padding: 75px 55px 75px 100px; position: relative;}
-.teamblock .col-12{background-color: #ffffff; border: 1px solid #cdcdcd; margin-bottom: 33px; padding: 65px;}
-.teamblock .col-8 .textwrapper{text-align: left; width: 100%;}
-.teamblock .col-8 .textwrapper h3:after{position: relative;}
-.teamblock .col-8 .textwrapper h3:after{content: ''; background-image: url("../../assets/images/teamicon1.png"); position: absolute; left: -58px;
-    top: 0px;
-    height: 35px;
-    width: 57px;
-    background-repeat: no-repeat; }
-
-.teamblock .col-8:after {
-    content: '';
-    height: 1px;
-    width: 100%;
-    background: #909090;
-    position: relative;
-    bottom: 75px;
-    display: inline-block;
-    margin-bottom: -69px;
+.mat-card { box-shadow: none !important; border-radius: 0 !important}
+.container {width: 1408px; margin: 0 auto; display: block}
+.comtopbannerblock {background-image:url("../../assets/images/teambanner1.jpg"); background-repeat: no-repeat; background-size: cover; position: relative;padding-left: 0; padding-right: 0; background-position: center center; min-height: 460px; display: flex !important; align-items: flex-end}
+.bannerimgwrapper {position: absolute;left: 50%;transform: translatex(-50%); bottom: -14px}
+.textwrapper h1 {font-size: 36px; font-family: 'MontserratBold'; color: #393c3f; text-transform: uppercase; margin-top: 0}
+.textwrapper h1 span {font-size: 30px; font-family: 'MontserratMedium'; color: #82878b; display: block;font-weight: normal; padding: 10px 0}
+.textwrapper h1 strong {font-family: 'LatoBlack'; color: #121514; display: block}
+.textwrapper p {font-family: 'LatoRegular'; color: #8d8d8d; font-size: 15px;line-height: 30px; padding-bottom: 45px;margin: 0}
+.textwrapper p b {font-family: 'LatoBold'; color: #757575; font-size: 20px}
+.textwrapper p i {color: #13181a; font-style: normal}
+.textwrapper h3 {font-family: 'LatoBold'; color: #4a4e54; font-size: 30px;margin: 0; padding-bottom: 45px}
+.textwrapper h3 span {font-family: 'LatoSemibold'; color: #18abef; font-size: 18px; text-transform: uppercase;display: block;padding-top: 10px}
+.textwrapper h4 {font-family: 'LatoSemibold'; color: #727272; font-size: 20px; display: block; margin: 0}
+.textwrapper h5 {font-family: 'LatoMedium'; color: #757575; font-size: 20px; display: block; margin: 0;line-height: 31px;padding-bottom: 45px;font-weight: normal}
+.textwrapper h5 span {font-family: 'Latobold'; color: #757575}
+.textwrapper h5 strong {font-family: 'LatoBold'; color: #18abef; font-size: 20px}
+.textwrapper h5 b { color: #18abef; font-size: 20px; display: block; padding-top: 25px; font-weight: normal; text-transform: uppercase}
+.comtopbannerblock .textwrapper h1 { margin: 0 auto;font-size: 40px; color: #ffffff;text-align: center}
+.textwrapper h2 {font-size: 30px; font-family: 'MontserratBold'; color: #ffffff; text-align: center}
+.teamblock2 {background-image: linear-gradient(#eaeaea, #fff, #e8e8e8); padding: 0; padding-top: 30px}
+.images img {max-width: 100%}
+.col-8 {width: 52% !important;height: auto !important}
+.col-2 {width: 481px !important;height: auto !important}
+.col-12 {width: 100% !important;height: auto !important}
+.listwrapper {display: flex; width: 100%; justify-content: space-between; flex-wrap: wrap}
+.teamblock .col-2 {background-color: #18abef}
+.teamblock .col-2 .imgwrapper img {width: 100%}
+.teamblock .col-2 .imgwrapper { display: inline-block; width: 100%}
+.teamblock .col-2 .listtextwrapper {padding: 40px; text-align: left; color: #ffffff}
+.teamblock .col-2 .listtextwrapper .mat-list .mat-list-item {height: auto; text-align: left; color: #ffffff}
+.teamblock .col-2 .listtextwrapper .mat-list .mat-list-item {font-size: 18px; font-family: 'LatoMedium'; color: #ffffff; padding: 10px 0; padding-left: 35px; position: relative; width: auto}
+.teamblock .col-2 .listtextwrapper .mat-list .mat-list-item:after {content: ''; position: absolute; left: 0; top: 15px; height: 13px; width: 13px; background-color: #ffffff}
+.teamblock .col-8 {background-color: #ffffff; border: 1px solid #cdcdcd; margin-bottom: 33px; padding: 75px 55px 75px 100px; position: relative}
+.teamblock .col-12 {background-color: #ffffff; border: 1px solid #cdcdcd; margin-bottom: 33px; padding: 65px}
+.teamblock .col-8 .textwrapper {text-align: left; width: 100%}
+.teamblock .col-8 .textwrapper h3:after {position: relative}
+.teamblock .col-8 .textwrapper h3:after {content: ''; background-image: url("../../assets/images/teamicon1.png"); position: absolute; left: -58px;top: 0px;height: 35px;width: 57px;background-repeat: no-repeat; }
+.teamblock .col-8:after {content: '';height: 1px;width: 100%;background: #909090;position: relative;bottom: 75px;display: inline-block;margin-bottom: -69px;}
+.teamblock .col-12 .textwrapper p {padding: 0}
+.btnwrapper {display: block; width: 100%; text-align: right}
+.morebtn {border: 1px solid #ffffff;font-family: 'LatoMedium';font-size: 14px;padding: 8px 35px;background: none;color: #fff;margin-top: 50px;cursor: pointer;text-decoration: none;}
+.col-3 {width: 395px !important; height: auto !important}
+.teamblock3 .textwrapper h1 {text-align: center; color: #ffffff}
+.teamblock3 {background-image:url("../../assets/images/teambanner2.jpg"); background-repeat: no-repeat; background-size: cover; position: relative;padding-left: 0; padding-right: 0; background-position: center center; padding-top: 65px; padding-bottom: 25px}
+.teamblock3 .textwrapper h1 {padding-bottom: 65px; margin: 0}
+.teamblock3 .col-3 { position: relative; padding-bottom: 15px; margin: 0 30px; margin-bottom: 42px}
+.teamblock3 .col-3:after {content: ''; background: #00a9f4; position: absolute; left: -10px; bottom: 0; height: 250px; width: 250px; clip-path: polygon(0 0, 0% 100%, 100% 100%)}
+.teamblock3 .col-3 img {max-width: 100%}
+.teamblock3 .col-3 .textwrapper {text-align: center}
+.teamblock3 .col-3 .textwrapper h1 {color: #2a2e33; font-size: 30px; margin: 0; padding-top: 10px; padding-bottom: 0px; font-family: 'LatoBold'}
+.teamblock3 .col-3 .textwrapper p {color: #979798; font-size: 20px;padding-bottom: 0}
+.teamcontentwrapper {display: inline-block; padding: 45px;background-color: #ffffff; position: relative; z-index: 9}
+.teamblock3 .listwrapper {justify-content: center}
+.teamblock4 .container {display: flex; justify-content: space-between; align-items: flex-start}
+.teamblock4 .textwrapper h1 {color: #313935; font-family: 'LatoSemibold'; font-size: 48px;margin: 0; padding-bottom: 5px}
+.teamblock4 .textwrapper p {color: #424a53; font-family: 'LatoRegular'; font-size: 30px; padding: 0}
+.teamblock4 .btnwrapper {width: auto}
+.teamblock4 .btnwrapper .morebtn {color: #424a53; border: 1px solid #424a53;margin-top: 0px; text-transform: uppercase; padding: 20px 60px;white-space: nowrap}
+.teamblock4 {padding: 60px 0}
+@media only screen and (max-width: 1520px) {.container {width: 94%}
 }
-
-.teamblock .col-12 .textwrapper p{padding: 0;}
-.btnwrapper{display: block; width: 100%; text-align: right;}
-.morebtn{
-    border: 1px solid #ffffff;
-    font-family: 'LatoMedium';
-    font-size: 14px;
-    padding: 8px 35px;
-    background: none;
-    color: #fff;
-    margin-top: 50px;
-    cursor: pointer;
-    text-decoration: none;
+@media only screen and (max-width: 1500px) {.col-8 {width: 50% !important;}
 }
-.col-3{width: 395px !important; height: auto !important;}
-.teamblock3 .textwrapper h1{text-align: center; color: #ffffff;}
-.teamblock3{
-    background-image:url("../../assets/images/teambanner2.jpg"); background-repeat: no-repeat; background-size: cover; position: relative;padding-left: 0; padding-right: 0; background-position: center center; padding-top: 65px; padding-bottom: 25px;}
-.teamblock3 .textwrapper h1{padding-bottom: 65px; margin: 0;}
-.teamblock3 .col-3{ position: relative; padding-bottom: 15px; margin: 0 30px; margin-bottom: 42px;}
-.teamblock3 .col-3:after{content: ''; background: #00a9f4; position: absolute; left: -10px; bottom: 0; height: 250px; width: 250px; clip-path: polygon(0 0, 0% 100%, 100% 100%);}
-.teamblock3 .col-3 img{max-width: 100%;}
-.teamblock3 .col-3 .textwrapper{text-align: center;}
-.teamblock3 .col-3 .textwrapper h1{color: #2a2e33; font-size: 30px; margin: 0; padding-top: 10px; padding-bottom: 0px; font-family: 'LatoBold';}
-.teamblock3 .col-3 .textwrapper p{color: #979798; font-size: 20px;padding-bottom: 0;}
-.teamcontentwrapper{display: inline-block; padding: 45px;background-color: #ffffff; position: relative; z-index: 9;}
-.teamblock3 .listwrapper{justify-content: center;}
-.teamblock4 .container{display: flex; justify-content: space-between; align-items: flex-start;}
-.teamblock4 .textwrapper h1{color: #313935; font-family: 'LatoSemibold'; font-size: 48px;    margin: 0; padding-bottom: 5px;}
-.teamblock4 .textwrapper p{color: #424a53; font-family: 'LatoRegular'; font-size: 30px; padding: 0;}
-.teamblock4 .btnwrapper {width: auto;}
-.teamblock4 .btnwrapper .morebtn{color: #424a53; border: 1px solid #424a53;margin-top: 0px; text-transform: uppercase; padding: 20px 60px;white-space: nowrap;}
-.teamblock4{padding: 60px 0;}
-
-
-@media only screen and (max-width: 1520px) {
-    .container{width: 94%;}
+@media only screen and (max-width: 1460px) {.col-8 {width: 48% !important;}
 }
-
-
-@media only screen and (max-width: 1500px) {
-    .col-8 {
-        width: 50% !important;
-    }
+@media only screen and (max-width: 1400px) {.col-8 {width: 45% !important;}
+.teamblock4 .textwrapper h1 {font-size: 44px}
+.teamblock4 .textwrapper p {font-size: 28px}
 }
-
-
-@media only screen and (max-width: 1460px) {
-    .col-8 {
-        width: 48% !important;
-    }
+@media only screen and (max-width: 1320px) {.col-8 {width: 42% !important;}
 }
-
-
-@media only screen and (max-width: 1400px) {
-    .col-8 {
-        width: 45% !important;
-    }
-    .teamblock4 .textwrapper h1 {font-size: 44px;}
-    .teamblock4 .textwrapper p {font-size: 28px;}
+@media only screen and (max-width: 1280px) {.teamblock4 .textwrapper h1 {font-size: 40px;}
+.teamblock4 .textwrapper p {font-size: 26px;}
+.teamblock4 .btnwrapper .morebtn {padding: 15px 40px; white-space: nowrap}
 }
-
-@media only screen and (max-width: 1320px) {
-    .col-8 {
-        width: 42% !important;
-    }
+@media only screen and (max-width: 1260px) {.col-8 {width: 39% !important;}
 }
-
-
-@media only screen and (max-width: 1280px) {
-    .teamblock4 .textwrapper h1 {
-        font-size: 40px;
-    }
-    .teamblock4 .textwrapper p {
-        font-size: 26px;
-    }
-    .teamblock4 .btnwrapper .morebtn {padding: 15px 40px; white-space: nowrap;}
+@media only screen and (max-width: 1199px) {.col-2 {width: 100% !important}
+.col-8 {width: 100% !important}
+.teamblock4 .container {justify-content: center; flex-wrap: wrap}
+.teamblock4 .textwrapper {width: 100%; text-align: center; padding-bottom: 30px}
+.teamblock4 {padding: 40px 0}
+.teamblock .col-2 .listtextwrapper {width: 100%}
+.comtopbannerblock {background-position: center top;min-height: inherit;padding-top: 30%;}
 }
-@media only screen and (max-width: 1260px) {
-    .col-8 {
-        width: 39% !important;
-    }
+@media only screen and (max-width: 991px) {.teamblock3 .col-3 {position: relative;padding-bottom: 15px;margin: 0 19px;margin-bottom: 42px;}
+.col-3 {width: 346px !important;}
+.teamcontentwrapper {padding: 20px}
 }
-
-@media only screen and (max-width: 1199px) {
-    .col-2{width: 100% !important;}
-    .col-8{width: 100% !important;}
-    .teamblock4 .container {justify-content: center; flex-wrap: wrap;}
-    .teamblock4 .textwrapper{width: 100%; text-align: center; padding-bottom: 30px;}
-    .teamblock4{padding: 40px 0;}
-    .teamblock .col-2 .listtextwrapper {width: 100%;}
+@media only screen and (max-width: 767px) {.teamblock .col-8 { padding: 35px 35px 35px 68px}
+.teamblock .col-2 .listtextwrapper {padding: 35px}
+.teamblock .col-12 {padding: 35px}
 }
-@media only screen and (max-width: 767px) {
-    .teamblock .col-8 { padding: 35px 35px 35px 68px;}
-    .teamblock .col-2 .listtextwrapper {padding: 35px;}
-    .teamblock .col-12 {padding: 35px;}
-}
-@media only screen and (max-width: 480px) {
-    .teamblock3 .col-3 {
-        position: relative;
-        padding-bottom: 15px;
-        margin: 0 0px;
-        margin-bottom: 42px;
-        width: 90% !important;
-    }
+@media only screen and (max-width: 480px) {.teamblock3 .col-3 {position: relative;padding-bottom: 15px;margin: 0 0px;margin-bottom: 42px;    width: auto !important;
+    background: #00a9f4;padding: 20px 15px;}
+.teamblock3 .col-3:after{display: none;}
+    .teamblock3 .textwrapper h1 {padding-bottom: 28px; margin: 0; font-size: 28px;}
 }
