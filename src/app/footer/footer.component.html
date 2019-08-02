@@ -1,5 +1,10 @@
 <mat-card class="footerblock">
-
+    <span class="scroll-to-top" [ngClass]="{'show-scrollTop': windowScrolled}">
+        <a (click)="scrollToTop()">
+            <i class="material-icons"> arrow_upward
+                </i>
+        </a>
+    </span>
 
   <mat-card class="footerblock_wrapper">
 

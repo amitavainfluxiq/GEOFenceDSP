@@ -16,33 +16,39 @@
 
     <mat-card-content class="contactbanner_form">
       <mat-card-content class="contactbanner_form_wrapper">
-        <form>
+          <form [formGroup]="contactForm" (submit)="doSubmit()">
           <mat-label>Name</mat-label>
           <mat-form-field>
-            <input matInput>
+            <input matInput  [formControl]="contactForm.controls['name']">
+            <mat-error  *ngIf="!contactForm.controls['name'].valid && contactForm.controls['name'].touched">Name is required</mat-error>
           </mat-form-field>
 
           <mat-label>Email Address</mat-label>
           <mat-form-field>
-            <input matInput>
+            <input matInput  [formControl]="contactForm.controls['email']">
+            <mat-error *ngIf="!contactForm.controls['email'].valid && contactForm.controls['email'].touched">Email is Required</mat-error>
           </mat-form-field>
 
           <mat-label>Phone Number</mat-label>
           <mat-form-field>
-            <input matInput type="number">
+            <input matInput type="number"  [formControl]="contactForm.controls['phoneNumber']">
+            <mat-error *ngIf="!contactForm.controls['phoneNumber'].valid && contactForm.controls['phoneNumber'].touched">PhoneNumber is Required</mat-error>
           </mat-form-field>
 
           <mat-label>Department</mat-label>
           <mat-form-field>
-            <mat-select>
-              <mat-option value="option">Option</mat-option>
+            <mat-select  [formControl]="contactForm.controls['depertment']">
+              <mat-option value="">Choose</mat-option>
+              <mat-option value="option">test</mat-option>
               <mat-option value="option">Option</mat-option>
             </mat-select>
+            <mat-error *ngIf="!contactForm.controls['depertment'].valid && contactForm.controls['depertment'].touched"> Select Depertment </mat-error>
           </mat-form-field>
 
           <mat-label>Message</mat-label>
           <mat-form-field>
-            <textarea matInput></textarea>
+            <textarea matInput [formControl]="contactForm.controls['message']"></textarea>
+            <mat-error *ngIf="!contactForm.controls['message'].valid && contactForm.controls['message'].touched">Message is Required</mat-error>
           </mat-form-field>
 
 

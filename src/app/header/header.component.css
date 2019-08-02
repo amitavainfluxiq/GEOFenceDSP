@@ -1,5 +1,7 @@
- .active {
-  color: #fff!important;
-  background: #42484c!important;
-  padding: 15px 3px;
+.active {
+  color: #24a5e1!important;
+
  }
+ .mat-action-list .mat-list-item:not(.mat-list-item-disabled):hover, .mat-list-option:not(.mat-list-item-disabled):hover, .mat-nav-list .mat-list-item:not(.mat-list-item-disabled):hover {
+  background: 0 0;
+}
