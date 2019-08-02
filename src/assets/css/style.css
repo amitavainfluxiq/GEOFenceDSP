@@ -197,7 +197,7 @@ body{ margin: 0; padding: 0;}
 .footer_subtitle_block2 .mat-card-content{ width: 200px; float: left;}
 .footer_subtitle_block2 .mat-card-content span{ display: block;  border-left: solid 1px #2b2d37!important; padding: 6px 0; padding-left: 30px;}
 
-.footer_subtitle_block2 .mat-card-content span a{ text-decoration: none; outline: none; font-size: 14px; color: #ffffff;  font-family: 'LatoRegular';  }
+.footer_subtitle_block2 .mat-card-content span a{ text-decoration: none; outline: none; font-size: 14px; color: #ffffff;  font-family: 'LatoRegular'; cursor: pointer; }
 .footer_subtitle_block2 .mat-card-content span a:hover{ color: #00bfff;}
 .footer_subtitle_block2 .mat-card-content .active a{ color: #00bfff;}
 

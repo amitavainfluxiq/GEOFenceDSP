@@ -84,6 +84,7 @@
 .diff_block2 .diff_inner2 .bottom_part .leftpart .gradient { background-image: none; }
 .block4 { padding-bottom: 55%!important; background-position: center bottom!important; background-size: 100%; background: #e8eff7 url(/assets/images/block4bg.jpg) no-repeat; }
 .diff_block5 { padding: 25px!important; background-size: 288%; background-position: 100% top; padding-top: 45%!important; background-color: #e0e0e0; min-height: inherit; }
+.diff_block3 .diff_inner2 .bottom_part .rightpart .inner_content { margin-bottom: 20px!important; }
 }
 @media screen and (max-width: 1040px){
   .diff_block2 .diff_inner2 .bottom_part .leftpart .inner_image { padding-left: 288px; }
@@ -98,6 +99,7 @@
 .diff_block5 .content2 { width: 100%; }
 .diff_block5 .get_started_btton { width: 300px; }
 .diff_block5 .content_section .b5_title { line-height: 40px; }
+.blk1_content_wrapper .blk1_title br{ display: none;}
 }
 @media screen and (max-width: 768px){
 
@@ -112,6 +114,7 @@
 .diff_block3 .diff_inner2 .bottom_part .rightpart .inner_content { margin-bottom: 20px!important;}
 .diff_block2 .diff_inner2 .bottom_part .rightpart { text-align: center; }
 .block4 { padding: 25px!important; padding-bottom: 85%!important; }
+.diff_block3 .diff_inner2 .bottom_part .rightpart .inner_content { border-left: 0px solid #1d9ef8; padding-left: 0; }
 }
 @media screen and (max-width: 600px){
   .diff_block5 { padding-top: 46%!important; }

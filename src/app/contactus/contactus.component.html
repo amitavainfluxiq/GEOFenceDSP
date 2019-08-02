@@ -15,7 +15,9 @@
     </mat-card-content>
 
     <mat-card-content class="contactbanner_form">
+
       <mat-card-content class="contactbanner_form_wrapper">
+          <mat-error *ngIf="error == true">All Fields are Required</mat-error>
           <form [formGroup]="contactForm" (submit)="doSubmit()">
           <mat-label>Name</mat-label>
           <mat-form-field>
@@ -56,7 +58,7 @@
           <button mat-button class="submit_button">send</button>
 
         </form>
-          <p *ngIf="successModal == true"> success</p>
+
 
       </mat-card-content>
     </mat-card-content>

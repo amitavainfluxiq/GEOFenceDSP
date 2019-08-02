@@ -11,20 +11,16 @@
 
 .getblock2{background-image:url("../../assets/images/getbanner2.jpg"); background-repeat: no-repeat; background-size: cover; position: relative;padding-left: 0; padding-right: 0; background-position: center center; padding-top: 65px; padding-bottom: 0; }
 
-.getimgwrapper{display: block; width: 100%; text-align: center;}
-.getimgwrapper img{max-width: 100%; margin-bottom: -4px;}
+.getimgwrapper{display: block; width: 100%; text-align: center;  position: relative; }
+.getimgwrapper img{max-width: 100%; display: block; margin: 0 auto; }
 .getblock2 .textwrapper{text-align: center;}
 .getblock2 .textwrapper h5{padding-bottom: 25px;}
 
-.getimgwrapper:after{content: '';position: absolute; left: 50%; height: 5px; width: 300px; background: #18ace3; transform: translatex(-50%);}
-
-
-
-
-
-
-
-
+.getimgwrapper:after{content: ''; top: 0; position: absolute; left: 50%; height: 5px; width: 300px; background: #18ace3; transform: translatex(-50%);}
 
 @media only screen and (max-width: 1520px) {.container {width: 94%}}
-@media only screen and (max-width: 991px) {.gettopbannerblock {min-height: 321px;}.getblock2{padding-top: 45px;}}
+@media only screen and (max-width: 991px) {
+  .gettopbannerblock {min-height: 321px;}
+  .getblock2{padding-top: 45px;}
+  .getimgwrapper img { padding-top: 20px; }
+}

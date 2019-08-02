@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import{ FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-contactus',
@@ -7,11 +7,12 @@ import{ FormBuilder, FormGroup, Validators } from '@angular/forms';
   styleUrls: ['./contactus.component.css']
 })
 export class ContactusComponent implements OnInit {
-  public successModal:any = false;
+  public successModal: any = false;
+  public error: any = false;
   public contactForm: FormGroup;
 
 
-  constructor( public fb: FormBuilder) {
+  constructor(public fb: FormBuilder) {
 
     this.contactForm = this.fb.group({
       name: ['', Validators.required],
@@ -20,18 +21,22 @@ export class ContactusComponent implements OnInit {
       email: ['', Validators.compose([Validators.required, Validators.pattern(/^\s*[\w\-\+_]+(\.[\w\-\+_]+)*\@[\w\-\+_]+\.[\w\-\+_]+(\.[\w\-\+_]+)*\s*$/)])],
       message: ['', Validators.required]
     })
-   }
+  }
 
   ngOnInit() {
   }
 
-  doSubmit(){
+  doSubmit() {
     if (this.contactForm.valid) {
-      let data:any = this.contactForm.value;
-      console.log( data );
-        this.successModal = true;
+      let data: any = this.contactForm.value;
+      console.log(data);
+      this.successModal = true;
+
     }
-    else{ console.log('error')}
+    else {
+      this.error = true;
+      console.log('error')
+    }
   }
 
 

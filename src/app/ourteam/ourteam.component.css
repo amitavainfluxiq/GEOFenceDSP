@@ -26,7 +26,7 @@
 .teamblock .col-2 {background-color: #18abef}
 .teamblock .col-2 .imgwrapper img {width: 100%}
 .teamblock .col-2 .imgwrapper { display: inline-block; width: 100%}
-.teamblock .col-2 .listtextwrapper {padding: 40px; text-align: left; color: #ffffff}
+.teamblock .col-2 .listtextwrapper {padding: 40px; text-align: left; color: #ffffff; padding-top: 18px; }
 .teamblock .col-2 .listtextwrapper .mat-list .mat-list-item {height: auto; text-align: left; color: #ffffff}
 .teamblock .col-2 .listtextwrapper .mat-list .mat-list-item {font-size: 18px; font-family: 'LatoMedium'; color: #ffffff; padding: 10px 0; padding-left: 35px; position: relative; width: auto}
 .teamblock .col-2 .listtextwrapper .mat-list .mat-list-item:after {content: ''; position: absolute; left: 0; top: 15px; height: 13px; width: 13px; background-color: #ffffff}
@@ -88,7 +88,7 @@
 .teamcontentwrapper {padding: 20px}
 }
 @media only screen and (max-width: 767px) {.teamblock .col-8 { padding: 35px 35px 35px 68px}
-.teamblock .col-2 .listtextwrapper {padding: 35px}
+.teamblock .col-2 .listtextwrapper {padding: 35px;padding-top: 18px;}
 .teamblock .col-12 {padding: 35px}
 }
 @media only screen and (max-width: 480px) {.teamblock3 .col-3 {position: relative;padding-bottom: 15px;margin: 0 0px;margin-bottom: 42px;    width: auto !important;
