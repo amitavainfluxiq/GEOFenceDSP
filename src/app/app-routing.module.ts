@@ -9,6 +9,9 @@ import { CommercialComponent } from './commercial/commercial.component';
 import { DifferenceComponent } from './difference/difference.component';
 import { MobilemarketingComponent } from './mobilemarketing/mobilemarketing.component';
 import { OurteamComponent } from './ourteam/ourteam.component';
+import { BigdataComponent } from './bigdata/bigdata.component';
+import { GetstartedComponent } from './getstarted/getstarted.component';
+import { PlatformfeaturesComponent } from './platformfeatures/platformfeatures.component';
 
 
 
@@ -20,7 +23,10 @@ const appRoutes: Routes = [
     {path:'contactus', component: ContactusComponent},
     {path:'thedifference', component: DifferenceComponent},
     {path:'mobilemarketing', component: MobilemarketingComponent},
-    {path: 'ourteam', component: OurteamComponent}
+    {path: 'ourteam', component: OurteamComponent},
+    { path:'bigdata', component: BigdataComponent},
+    { path: 'getstarted', component: GetstartedComponent},
+    { path: 'platform-features', component: PlatformfeaturesComponent}
 
 
 ];
