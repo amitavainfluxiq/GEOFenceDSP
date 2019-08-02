@@ -27,7 +27,6 @@ import { BigdataComponent } from './bigdata/bigdata.component';
 import { PlatformfeaturesComponent } from './platformfeatures/platformfeatures.component';
 import { GetstartedComponent } from './getstarted/getstarted.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,7 +40,8 @@ import { GetstartedComponent } from './getstarted/getstarted.component';
     OurteamComponent,
     BigdataComponent,
     PlatformfeaturesComponent,
-    GetstartedComponent
+    GetstartedComponent,
+
   ],
   imports: [
     DemoMaterialModule,
@@ -50,7 +50,8 @@ import { GetstartedComponent } from './getstarted/getstarted.component';
     HttpClientModule,
     ListingModule,
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
-    AppRoutingModule,MetaModule.forRoot(), BrowserAnimationsModule
+    AppRoutingModule,MetaModule.forRoot(), BrowserAnimationsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

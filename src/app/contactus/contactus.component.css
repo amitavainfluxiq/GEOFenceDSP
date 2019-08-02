@@ -55,7 +55,7 @@
 }
 
 
-.contactbanner_form_wrapper mat-select { height: 15px; color: #000!important; font-family: 'Montserrat-Regular'!important; background: #f7f7f7; margin-top: 0px; font-size: 14px; color: #000000; -webkit-box-shadow: 0px 0px 5px 0px rgba(25,80,119,1); -moz-box-shadow: 0px 0px 5px 0px rgba(25,80,119,1); box-shadow: 0px 0px 5px 0px rgba(25,80,119,1); padding: 10px 1%; width: 98%; }
+.contactbanner_form_wrapper mat-select { height: 15px; color: #000!important;  background: #f7f7f7; margin-top: 0px; font-size: 14px; color: #000000; -webkit-box-shadow: 0px 0px 5px 0px rgba(25,80,119,1); -moz-box-shadow: 0px 0px 5px 0px rgba(25,80,119,1); box-shadow: 0px 0px 5px 0px rgba(25,80,119,1); padding: 10px 1%; width: 98%; }
 
 
 .contactbanner_form_wrapper .mat-form-field-appearance-legacy .mat-form-field-infix { padding: 0 10px; background: #f7f7f7;  height: 35px!important; font-size: 16px; color: #000000; }
@@ -63,10 +63,10 @@
 .contactbanner_form_wrapper mat-label{ color: #fff; font-size: 16px; font-family: 'LatoRegular'; text-transform: uppercase; }
 .contactbanner_form_wrapper .mat-form-field-infix { padding: .5em 0; border-top: .3em solid transparent!important; }
 .contactbanner_form_wrapper textarea.mat-input-element{ height: 50px!important; background: #f7f7f7; padding: 2px 1%; width: 100%; box-shadow: 0px 0px 5px 0px rgba(25,80,119,1);
-  position: relative; box-sizing: border-box; }
+  position: relative; box-sizing: border-box; padding-top: 8px; }
 
 
-.contactbanner_form_wrapper  .mat-input-element {caret-color: #000; height: 35px!important; font-family: 'Montserrat-Regular'!important;  font-size: 14px!important; color: #000000!important; font-weight: normal!important;}
+.contactbanner_form_wrapper  .mat-input-element {caret-color: #000; height: 35px!important;   font-size: 14px!important; color: #000000!important; font-weight: normal!important;}
 .contactbanner_form_wrapper  .mat-form-field-infix{ border-top: 0px!important; border: solid 1px #cfd1d3!important;}
 
 .contactbanner_form_wrapper .mat-form-field-appearance-legacy .mat-form-field-label { top: 28px; padding: 0 10px;  font-size: 16px; color: #000000; }
@@ -130,4 +130,12 @@
 .contactbanner_text_wrapper h3 { font-size: 26px; line-height: 28px; padding-top: 15px;}
 .contact_block1 {padding: 40px 0!important; }
 .contactbanner_text_wrapper h2 { font-size: 39px; }
+}
+
+.mat-error{
+color: #721c24;
+font-size: 12px;
+background: #ffd0d4;
+border-color: #f5c6cb;
+padding: 8px;
 }
