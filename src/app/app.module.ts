@@ -26,6 +26,10 @@ import { OurteamComponent } from './ourteam/ourteam.component';
 import { BigdataComponent } from './bigdata/bigdata.component';
 import { PlatformfeaturesComponent } from './platformfeatures/platformfeatures.component';
 import { GetstartedComponent } from './getstarted/getstarted.component';
+import { PrivacyComponent } from './privacy/privacy.component';
+import { TermsAndconditionsComponent } from './terms-andconditions/terms-andconditions.component';
+import { AddPoliciesComponent } from './add-policies/add-policies.component';
+import { BannerAddFormatComponent } from './banner-add-format/banner-add-format.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +45,10 @@ import { GetstartedComponent } from './getstarted/getstarted.component';
     BigdataComponent,
     PlatformfeaturesComponent,
     GetstartedComponent,
+    PrivacyComponent,
+    TermsAndconditionsComponent,
+    AddPoliciesComponent,
+    BannerAddFormatComponent,
 
   ],
   imports: [

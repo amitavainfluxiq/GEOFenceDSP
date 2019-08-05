@@ -10,11 +10,10 @@
 
 
     <mat-card-subtitle class="footer_subtitle_block1">
-      <h2>Geoai Technologies</h2>
-      <h3>1110 Summit Ave Suite #4,<br/>
-        Plano, Tx 75074<br/><br/>
-
-        469-288-4956</h3>
+      <h2>GEO AI Technologies INC</h2>
+      <h3>180 N Broadway St <br/>
+        Blackfoot, ID, 83221<br/>
+        866-463-0890</h3>
       <img src="../../assets/images/logo.png" alt="#">
 
 
@@ -28,7 +27,7 @@
       <mat-card-content>
         <span>   <a [routerLink]="['/home']" routerLinkActive="active"> Home </a></span>
         <span>   <a (click)="openDialog()" routerLinkActive="active"> Platform Features  </a></span>
-        <span>   <a [routerLink]="['/thedifference']" routerLinkActive="active">  The Difference   </a></span>
+        <span>   <a [routerLink]="['/The-Difference']" routerLinkActive="active">The Difference   </a></span>
         <span>   <a [routerLink]="['/bigdata']" routerLinkActive="active"> Big Data</a></span>
         <span>   <a [routerLink]="['/commercialGEO']" routerLinkActive="active"> Commercial GEO </a></span>
 
@@ -50,15 +49,15 @@
       <h2>Contact</h2>
 
       <ul>
-        <li><a href="tel:000.000.0000">000.000.0000</a></li>
-        <li><a href="mailto:Lorem ipsum@Lorem" target="_top">Lorem ipsum@Lorem </a></li>
-        <li><a href="mailto:Lorem ipsum@Lorem" target="_top">Lorem ipsum@Lorem </a></li>
-        <li><span>Lorem ipsum  • Lorem ipsum
-• Lorem ipsum </span></li>
+        <li><a href="tel:000.000.0000">866-463-0890 </a></li>
+        <li><a href="mailto:sales@geofencedsp.com" target="_top">sales@geofencedsp.com</a></li>
+        <li><a href="mailto:support@geofencedsp.com" target="_top">support@geofencedsp.com</a></li>
+        <li><span>180 N Broadway St<br>
+          Blackfoot, ID, 83221 </span></li>
 
       </ul>
 
-
+<!--
       <mat-card-content class="footersocial_link">
         <a href="javascript:void(0)"><img src="../../assets/images/footer_social_link1.jpg" alt="#"></a>
         <a href="javascript:void(0)"><img src="../../assets/images/footer_social_link2.jpg" alt="#"></a>
@@ -66,7 +65,7 @@
         <a href="javascript:void(0)"><img src="../../assets/images/footer_social_link4.jpg" alt="#"></a>
         <a href="javascript:void(0)"><img src="../../assets/images/footer_social_link5.jpg" alt="#"></a>
       </mat-card-content>
-
+-->
 
       <mat-card-content class="clear"></mat-card-content>
 
@@ -86,7 +85,7 @@
 <mat-card class="footerblock2">
 
   <span>Copyright &copy; 2019 Geofencedsp. All rights reserved.</span>
-  <span><a href="javascript:void(0)">Privacy Policy</a>    .    <a href="javascript:void(0)">Terms & Conditions </a>   .   <a href="javascript:void(0)">Ad Policies</a>     .   <a href="javascript:void(0)">Banner Ad Formats</a> </span>
+  <span><a (click)="openPrivacy()">Privacy Policy</a>    .    <a (click)="openTerms()">Terms & Conditions </a>   .   <a routerLink="/add-policies">Ad Policies</a>     .   <a routerLink="/banner-add-format">Banner Ad Formats</a> </span>
 
 
 </mat-card>

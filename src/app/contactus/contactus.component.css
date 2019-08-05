@@ -73,7 +73,7 @@
 .mat-error { color: #f44336; font-size: 12px;}
 .contactbanner_form_wrapper .mat-form-field-appearance-legacy .mat-form-field-wrapper { padding-bottom: .5em!important; }
 .mat-form-field-infix { padding: 0!important; }
-.contactbanner_form_wrapper .submit_button{ width: 180px; background: #3f3f3f;  font-family: "LatoRegular"; font-size: 20px; color:#fff; text-transform: capitalize; padding: 3px 0 6px; float: right; clear: both; margin-top: 15px;}
+.contactbanner_form_wrapper .submit_button{ width: 180px; background: #3f3f3f;  font-family: "LatoRegular"; font-size: 20px; color:#fff; text-transform: capitalize; padding: 3px 0 6px; float: right; clear: both; margin-top: 22px;}
 .responsive_image{ display: none;}
 
 

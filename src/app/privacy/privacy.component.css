@@ -1,0 +1,16 @@
+.privacy_wrapper { box-shadow: none!important; padding: 30px!important; }
+.privacy_wrapper .logo_wrapper{ text-align: center;}
+.privacy_wrapper .logo_wrapper img{ border-bottom: 4px solid #4e5559; padding-bottom: 5px; max-width: 100%;}
+.privacy_wrapper .privacy-header{  font-family: "LatoBold"; font-size: 26px; text-transform: uppercase;}
+
+.privacy_wrapper h2{ font-family: "LatoSemibold"; font-size: 22px; line-height: 28px; margin-bottom: 5px;}
+.privacy_wrapper p{ font-family: "LatoRegular"; font-size: 18px; line-height: 28px; margin: 0;}
+
+.privacy_wrapper a{ color: #00adea; }
+
+@media screen and (max-width: 480px){
+  .privacy_wrapper { padding: 10px!important; text-align: center; }
+  .privacy_wrapper .privacy-header { font-size: 20px; }
+  .privacy_wrapper  p{ font-size: 16px; }
+  .privacy_wrapper h2{ font-size: 20px; line-height: 22px; }
+}

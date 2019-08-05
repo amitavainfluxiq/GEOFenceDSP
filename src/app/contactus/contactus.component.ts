@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-
+import {MatDialog } from '@angular/material/dialog';
+import { PlatformfeaturesComponent } from '../platformfeatures/platformfeatures.component';
 @Component({
   selector: 'app-contactus',
   templateUrl: './contactus.component.html',
@@ -12,7 +13,7 @@ export class ContactusComponent implements OnInit {
   public contactForm: FormGroup;
 
 
-  constructor(public fb: FormBuilder) {
+  constructor(public fb: FormBuilder, public dialog: MatDialog) {
 
     this.contactForm = this.fb.group({
       name: ['', Validators.required],
@@ -27,17 +28,33 @@ export class ContactusComponent implements OnInit {
   }
 
   doSubmit() {
+    let x: any;
+    // this.errormg = '';
+    // let data = this.contactForm.value;
+    // console.log(data);
+
+    for (x in this.contactForm.controls) {
+        this.contactForm.controls[x].markAsTouched();
+    }
     if (this.contactForm.valid) {
       let data: any = this.contactForm.value;
       console.log(data);
       this.successModal = true;
-
     }
-    else {
-      this.error = true;
-      console.log('error')
-    }
+    // else {
+    //   this.error = true;
+    //   console.log('error')
+    // }
   }
+  inputUntouch(form: any, val: any) {
+    console.log('on blur .....');
+    form.controls[val].markAsUntouched();
+  }
+  openDialog() {
+    const dialogRef = this.dialog.open(PlatformfeaturesComponent);
 
-
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(`Dialog result: ${result}`);
+    });
+  }
 }

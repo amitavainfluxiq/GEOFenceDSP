@@ -3,6 +3,8 @@ import { Component, OnInit, HostListener } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { PlatformfeaturesComponent } from '../platformfeatures/platformfeatures.component';
 import { MatDialog } from '@angular/material';
+import { PrivacyComponent } from '../privacy/privacy.component';
+import { TermsAndconditionsComponent } from '../terms-andconditions/terms-andconditions.component';
 
 @Component({
   selector: 'app-footer',
@@ -57,4 +59,24 @@ export class FooterComponent implements OnInit {
     });
   }
 
+  openPrivacy(){
+    const dialogRef = this.dialog.open(PrivacyComponent, {
+      autoFocus: false,
+      maxHeight: '98vh' //you can adjust the value as per your view
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(`Dialog result: ${result}`);
+    });
+  }
+  openTerms(){
+    const dialogRef = this.dialog.open(TermsAndconditionsComponent, {
+      autoFocus: false,
+      maxHeight: '98vh' //you can adjust the value as per your view
+      });
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(`Dialog result: ${result}`);
+    });
+  }
 }

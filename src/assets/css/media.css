@@ -53,7 +53,9 @@
     .footerblock_wrapper{  width: 1190px!important;}
 
     .footer_subtitle_block1 {
-        width: 320px;}
+       /* previous width: 320px; */
+        width: 460px;
+      }
 
     .footer_subtitle_block2 {
         width: 362px;}
@@ -61,7 +63,7 @@
     .footer_subtitle_block2 .mat-card-content {
         width: 180px;}
 
-    .footer_subtitle_block3 {   width: 490px;}
+    /* previous .footer_subtitle_block3 {   width: 490px;} */
 
     }
 

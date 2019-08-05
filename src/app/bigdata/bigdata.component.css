@@ -1,2 +1,9 @@
 .bigdata{  display: block; }
 .bigdata img{  display: block; max-width: 100%; }
+
+
+.block1{ background: url(/assets/images/bigdatablock1bg.jpg) no-repeat center center; display: flex; justify-content: center; align-items: center; text-align: center; }
+.block1 .inner_content .title_1{ font-family: "MontserratBold"; text-transform: uppercase; font-size: 40px; color: #fff; }
+.block1 .inner_content{ width: 1220px; margin: 0 auto; }
+.block1 .inner_content .subtitle_1{ font-family: "MontserratBold"; font-size: 30px;  color:#fff; }
+.block1 .inner_content{}
