@@ -1,2 +1,101 @@
+.mat-card{ box-shadow: none !important; border-radius: 0 !important;}
+.container{width: 1408px; margin: 0 auto; display: block;}
+.addpolicitopbannerblock{background-image:url("../../assets/images/addpolicibanner1.jpg"); background-repeat: no-repeat; background-size: cover; position: relative;padding-left: 0; padding-right: 0; background-position: top right; min-height: 460px; display: flex !important; align-items: center;}
+.bannerimgwrapper {position: absolute;left: 50%;transform: translatex(-50%); bottom: -14px;}
+
+.textwrapper h1{font-size: 36px; font-family: 'MontserratBold'; color: #393c3f; text-transform: uppercase; margin-top: 0;}
+.textwrapper h1 span{font-size: 30px; font-family: 'MontserratMedium'; color: #82878b; display: block;font-weight: normal; padding: 10px 0;}
+.textwrapper h1 strong{font-family: 'LatoBlack'; color: #121514; display: block;}
+.textwrapper p{font-family: 'LatoRegular'; color: #82878b; font-size: 20px;line-height: 30px;}
+.textwrapper h2{font-size: 30px; font-family: 'MontserratBold'; color: #ffffff; text-align: center;}
+.addpolicitopbannerblock .textwrapper h1{ margin: 0 auto;font-size: 40px; color: #ffffff;text-align: center;}
+.addpolicitopbannerblock .textwrapper h1 b{display: block; padding: 35px 0 10px 0; font-size: 30px;}
+.addpolicitopbannerblock .textwrapper h2{padding: 0 153px; font-size:30px; font-family: 'MontserratRegular';font-weight: normal;}
+.addpolicitopbannerblock .textwrapper p{color: #ffffff;font-family: 'MontserratRegular'; text-align: center; font-size: 18px; padding: 0 271px;}
+
+.litlelistwrapper p{font-family: 'LatoRegular'; font-size: 20px; color: #393c3f;}
+.addpoliciblock2{text-align: center; padding: 66px 0;}
+.litlelistwrapper .mat-card-title{font-family: 'LatoRegular'; font-size: 20px; color: #5f5f5f; background-image: url("../../assets/images/boldicon1.png"); background-repeat: no-repeat; background-position: left top 15px;padding: 10px 0; padding-left: 40px; text-align: left;}
+.addpoliciblock2 .litlelistwrapper.mat-card-title-group {
+    -moz-column-count: 2;
+    -moz-column-gap: 80px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 80px;
+    column-count: 2;
+    column-gap: 80px;
+
+}
+.litlelistwrapper.mat-card-title-group{display: inline-block; width: 100%;}
+.addpoliciblock3{text-align: center; padding: 66px 0; background-image:url("../../assets/images/addpolicibanner2.jpg"); background-repeat: no-repeat; background-size: cover; position: relative;padding-left: 0; padding-right: 0; background-position: right top;}
+.addpoliciblock3 .litlelistwrapper .mat-card-title{background-image: url("../../assets/images/boldicon2.png"); color: #434343; padding-right: 364px;}
+
+.addpoliciblock4{text-align: center; padding: 66px 0;}
+.addpoliciblock4 .textwrapper p{text-align: left; color: #393c3f; padding: 0; padding-left: 35px; border-left: 6px solid #19abef; margin-bottom: 65px;}
+
+.teamblock5{padding: 60px 0; background-color: #19abef;}
+.teamblock5 .container {display: flex; justify-content: space-between; align-items: flex-start}
+.teamblock5 .textwrapper h1 {color: #ffffff; font-family: 'LatoSemibold'; font-size: 48px;margin: 0; padding-bottom: 5px}
+.teamblock5 .textwrapper p {color: #ffffff; font-family: 'LatoRegular'; font-size: 30px; padding: 0; margin: 0;}
+.teamblock5 .btnwrapper {width: auto}
+.teamblock5 .btnwrapper .morebtn {color: #ffffff; border: 1px solid #424a53; margin-top: 0px; text-transform: none; padding: 1px 60px; white-space: nowrap; background-color: #424a53;}
+
+
+
+@media only screen and (max-width: 1540px) {
+    .addpoliciblock3 .litlelistwrapper .mat-card-title {padding-right: 570px;}
+}
+
+@media only screen and (max-width: 1520px) {
+    .container{width: 94%;}
+}
+
+@media only screen and (max-width: 1400px) {
+    .addpolicitopbannerblock .textwrapper p {padding: 0 178px;}
+    .teamblock5 .textwrapper h1 {font-size: 40px;}
+    .teamblock5 .textwrapper p {font-size: 26px;}
+    .teamblock5 {padding: 36px 0;}
+}
+
+@media only screen and (max-width: 1320px) {
+    .addpolicitopbannerblock .textwrapper h2 {padding: 0 0;}
+    .addpolicitopbannerblock .textwrapper p {padding: 0 115px;}
+}
+
+@media only screen and (max-width: 1199px) {
+    .addpoliciblock3 {padding: 45px 0;background-size: 314%;padding-top: 104%; background-color: #f0f0ee;}
+    .addpoliciblock3 .litlelistwrapper .mat-card-title {padding-right: 0;}
+    .teamblock5 .container {justify-content: center;flex-wrap: wrap;}
+    .teamblock5 .container .textwrapper {width: 100%;text-align: center; padding-bottom: 35px;}
+    .addpolicitopbannerblock:after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: #00000082;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .addpolicitopbannerblock .textwrapper{position: relative; z-index:9;}
+
+}
+
+@media only screen and (max-width: 991px) {
+    .addpoliciblock2 .litlelistwrapper.mat-card-title-group {
+        -moz-column-count: 1;
+        -moz-column-gap: 0;
+        -webkit-column-count: 1;
+        -webkit-column-gap: 0;
+        column-count: 1;
+        column-gap: 0;
+    }
+    .addpoliciblock3 {padding-top: 105%;}
+    .addpolicitopbannerblock .textwrapper p {padding: 0 0;}
+}
+@media only screen and (max-width: 560px) {
+    .addpoliciblock3 {
+        padding-top: 108%;
+    }
+}
+
 .image_wrapper{ display: block; }
 .image_wrapper img{ display: block; max-width: 100%; }
