@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import {MatDialog } from '@angular/material/dialog';
 import { PlatformfeaturesComponent } from '../platformfeatures/platformfeatures.component';
+import { HttpClient } from '@angular/common/http';
+
 @Component({
   selector: 'app-contactus',
   templateUrl: './contactus.component.html',
@@ -13,7 +15,7 @@ export class ContactusComponent implements OnInit {
   public contactForm: FormGroup;
 
 
-  constructor(public fb: FormBuilder, public dialog: MatDialog) {
+  constructor(public fb: FormBuilder, public dialog: MatDialog, public http: HttpClient) {
 
     this.contactForm = this.fb.group({
       name: ['', Validators.required],
@@ -38,6 +40,15 @@ export class ContactusComponent implements OnInit {
     }
     if (this.contactForm.valid) {
       let data: any = this.contactForm.value;
+      let link = "";
+      this.http.post(link, data).subscribe(res=> {
+        let result:any = res;
+        if (result.status === 'success'){
+          this.contactForm.reset();
+          setTimeout(() =>{}, 2000);
+        }
+      })
+
       console.log(data);
       this.successModal = true;
     }

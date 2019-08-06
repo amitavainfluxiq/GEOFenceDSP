@@ -16,7 +16,7 @@
 .textwrapper h5 strong {font-family: 'LatoBold'; color: #18abef; font-size: 20px}
 .textwrapper h5 b { color: #18abef; font-size: 20px; display: block; padding-top: 25px; font-weight: normal; text-transform: uppercase}
 .comtopbannerblock .textwrapper h1 { margin: 0 auto;font-size: 40px; color: #ffffff;text-align: center}
-.textwrapper h2 {font-size: 30px; font-family: 'MontserratBold'; color: #ffffff; text-align: center}
+.textwrapper h2 {font-size: 30px; font-family: 'MontserratBold'; color: #ffffff; text-align: center;    margin-bottom: 5px;}
 .teamblock2 {background-image: linear-gradient(#eaeaea, #fff, #e8e8e8); padding: 0; padding-top: 30px}
 .images img {max-width: 100%}
 .col-8 {width: 52% !important;height: auto !important}

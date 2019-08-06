@@ -1,6 +1,6 @@
 .mat-card{ box-shadow: none !important; border-radius: 0 !important;}
 .container{width: 1408px; margin: 0 auto; display: block;}
-.comtopbannerblock{background-image:url("../../assets/images/combanner1.jpg"); background-repeat: no-repeat; background-size: cover; position: relative;padding-left: 0; padding-right: 0; background-position: center center; min-height: 460px; display: flex !important; align-items: center;}
+.comtopbannerblock{background-image:url("../../assets/images/combanner1.jpg"); background-repeat: no-repeat;  min-height: 300px; background-size: cover; position: relative;padding-left: 0; padding-right: 0; background-position: center center; display: flex !important; align-items: center;}
 .bannerimgwrapper {position: absolute;left: 50%;transform: translatex(-50%); bottom: -14px;}
 
 .textwrapper h1{font-size: 36px; font-family: 'MontserratBold'; color: #393c3f; text-transform: uppercase; margin-top: 0;}
@@ -10,7 +10,7 @@
 .textwrapper h2{font-size: 30px; font-family: 'MontserratBold'; color: #ffffff; text-align: center;}
 .comtopbannerblock .textwrapper h1{ margin: 0 auto;font-size: 40px; color: #ffffff;text-align: center;}
 .comtopbannerblock .textwrapper h1 b{display: block; padding: 35px 0 10px 0; font-size: 30px;}
-.comtopbannerblock .textwrapper h2{padding: 0 142px; font-size: 24px;}
+.comtopbannerblock .textwrapper h2{padding: 0 142px; font-size: 24px; margin-bottom: 10px;}
 .comblock2{text-align: center; padding-top: 66px;}
 .comblock2 .textwrapper{text-align: center;}
 .comblock2text1 p{ color: #393c3f; padding: 0 190px;}

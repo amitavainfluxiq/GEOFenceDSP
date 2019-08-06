@@ -41,7 +41,7 @@
           <mat-label>Department</mat-label>
           <mat-form-field>
             <mat-select  [formControl]="contactForm.controls['depertment']"  (blur)="inputUntouch(contactForm, 'depertment')">
-              <mat-option value="">-- Choose --</mat-option>
+              <mat-option value=""> -- Choose --</mat-option>
               <mat-option value="Sales">Sales</mat-option>
               <mat-option value="Support">Support</mat-option>
               <mat-option value="Accounting">Accounting</mat-option>
