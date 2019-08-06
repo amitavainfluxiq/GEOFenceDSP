@@ -1,3 +1,32 @@
 .image_wrapper{ display: block; }
 .image_wrapper a{ text-decoration: none; cursor: pointer;}
 .image_wrapper img{ display: block; max-width: 100%; }
+.mat-card{ box-shadow: none!important; border-radius: 0!important; }
+.blok1{ background: url("/assets/images/bannerFormatbg1.jpg") no-repeat center center; background-size: cover; padding: 30px; }
+.blok1 .inner_container{ width: 1240px; margin: 0 auto; text-align: center;}
+.blok1 .inner_container .top_title{font-family: "MontserratRegular"; color: #fff; text-transform: capitalize; font-size: 30px; }
+.blok1 .inner_container .title{font-family: "MontserratBold"; color: #fff; text-transform: uppercase; font-size: 40px; margin-bottom: 16px;}
+.blok1 .inner_container .list_items { display: flex; margin-bottom: 20px;}
+.blok1 .inner_container .list_items .mat-list-item{font-family: "MontserratRegular"; color: #fff; font-size: 26px; background: url("/assets/images/boldicon1.png") no-repeat center left; padding-left: 15px;}
+.blok1 .inner_container .subtitle{font-family: "MontserratRegular"; color: #fff; font-size: 24px;}
+
+.blok2{ background: url("/assets/images/bannerFormatbg2.jpg") no-repeat center center; background-size: cover; padding: 30px;}
+.blok2 .container{ width: 1420px; margin: 0 auto; }
+.blok2 .container .title2 { font-family: "MontserratMedium"; font-size: 36px; color:#373737; text-align: center; text-transform: uppercase; font-weight: bold; }
+.blok2 .container .title2 span{ font-family: "MontserratBold"; }
+.blok2 .container .list2 .mat-list-item{ background:url("/assets/images/boldicon1.png") no-repeat left 10px; padding-left: 15px; font-family: "LatoRegular"; color: #5f5f5f; margin: 15px 0;}
+
+@media screen and (max-width:1340px){
+  .blok1 .inner_container { width: 95%; }
+}
+@media screen and (max-width:1199px){
+  .blok1 .inner_container .list_items .mat-list-item { font-size: 23px; padding-left: 10px; }
+  .blok1 .inner_container .subtitle { font-size: 20px; }
+}
+@media screen and (max-width:992px){
+  .blok1 .inner_container .list_items .mat-list-item { display: flex; justify-content: center; background-position: center top; padding: 15px 0 0 0; }
+  .blok1 .inner_container .list_items {  display: flex; flex-direction: column; }
+}
+@media screen and (max-width:480px){
+.blok1 { padding: 20px; }
+}

@@ -20,7 +20,7 @@ export class ContactusComponent implements OnInit {
     this.contactForm = this.fb.group({
       name: ['', Validators.required],
       depertment: ['', Validators.required],
-      phoneNumber: ['', Validators.compose([Validators.required, Validators.pattern(/[0-9\+\-\ ]/)])],
+      phone: ['', Validators.compose([Validators.required, Validators.pattern(/[0-9\+\-\ ]/)])],
       email: ['', Validators.compose([Validators.required, Validators.pattern(/^\s*[\w\-\+_]+(\.[\w\-\+_]+)*\@[\w\-\+_]+\.[\w\-\+_]+(\.[\w\-\+_]+)*\s*$/)])],
       message: ['', Validators.required]
     })
@@ -40,7 +40,7 @@ export class ContactusComponent implements OnInit {
     }
     if (this.contactForm.valid) {
       let data: any = this.contactForm.value;
-      let link = "";
+      let link = "http://166.62.39.137:5001/geofencecontactusemail";
       this.http.post(link, data).subscribe(res=> {
         let result:any = res;
         if (result.status === 'success'){

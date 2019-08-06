@@ -34,8 +34,8 @@
 
           <mat-label>Phone Number</mat-label>
           <mat-form-field>
-            <input matInput type="number"  [formControl]="contactForm.controls['phoneNumber']" (blur)="inputUntouch(contactForm, 'phoneNumber')">
-            <mat-error *ngIf="!contactForm.controls['phoneNumber'].valid && contactForm.controls['phoneNumber'].touched">PhoneNumber is Required</mat-error>
+            <input matInput type="number"  [formControl]="contactForm.controls['phone']" (blur)="inputUntouch(contactForm, 'phone')">
+            <mat-error *ngIf="!contactForm.controls['phone'].valid && contactForm.controls['phone'].touched">PhoneNumber is Required</mat-error>
           </mat-form-field>
 
           <mat-label>Department</mat-label>
