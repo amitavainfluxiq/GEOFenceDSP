@@ -13,7 +13,7 @@ export class ContactusComponent implements OnInit {
   public successModal: any = false;
   public error: any = false;
   public contactForm: FormGroup;
-
+  public confirmMessage:any= false;
 
   constructor(public fb: FormBuilder, public dialog: MatDialog, public http: HttpClient) {
 
@@ -44,7 +44,14 @@ export class ContactusComponent implements OnInit {
       this.http.post(link, data).subscribe(res=> {
         let result:any = res;
         if (result.status === 'success'){
+
+          const dialogRef = this.dialog.open(ConfirmComponent);
+          dialogRef.afterClosed().subscribe(result => {
+            console.log(`Dialog result: ${result}`);
+          });
+
           this.contactForm.reset();
+
           setTimeout(() =>{}, 2000);
         }
       })
@@ -63,9 +70,19 @@ export class ContactusComponent implements OnInit {
   }
   openDialog() {
     const dialogRef = this.dialog.open(PlatformfeaturesComponent);
-
     dialogRef.afterClosed().subscribe(result => {
       console.log(`Dialog result: ${result}`);
     });
   }
+
+
+}
+@Component({
+  selector: 'app-confirm',
+  templateUrl: './confirm.html',
+  styleUrls: ['./contactus.component.css']
+})
+
+export class ConfirmComponent {
+
 }

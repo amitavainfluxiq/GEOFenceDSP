@@ -1,6 +1,6 @@
 .mat-card{ box-shadow: none!important; border-radius: 0!important;}
 
-.blok1{padding: 0px!important; background: url(/assets/images/MMBlok1bg.jpg) no-repeat center center; min-height: 360px; display: flex; justify-content: center; align-items: center;  background-size: cover; }
+.blok1{padding: 30px!important; background: url(/assets/images/MMBlok1bg.jpg) no-repeat center center; display: flex; justify-content: center; align-items: center;  background-size: cover; }
 .blok1 .blk1_container{ width: 75%; margin: 0 auto; text-align: center; }
 .blok1 .blk1_container  .blk1_title { font-family: "MontserratBold"; font-size: 40px; color: #fff; text-transform: uppercase; margin-bottom: 30px;}
 .blok1 .blk1_container  .blk1_subtitle .sub{ font-family: "MontserratBold"; font-size: 50px; color: #fff; text-transform: uppercase; display: block; margin-bottom: 15px; }

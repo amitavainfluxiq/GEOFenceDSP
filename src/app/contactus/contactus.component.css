@@ -76,8 +76,31 @@
 .contactbanner_form_wrapper .submit_button{ width: 180px; background: #3f3f3f;  font-family: "LatoRegular"; font-size: 20px; color:#fff; text-transform: capitalize; padding: 3px 0 6px; float: right; clear: both; margin-top: 22px;}
 .responsive_image{ display: none;}
 
+/* for modal */
+.main_header{ max-width:100%; width: 700px; margin: 0px auto; background: #e8e8e8; min-height: 290px; text-align: center;  border: 2px solid #45c0ff; display: flex; flex-direction: column;
+  justify-content: center;  box-shadow: none!important;}
+.main_header .mat-card-title{ font-size: 30px; font-family: "LatoBold"; text-transform: uppercase;color: #24a5e1;     margin: 24px 0;}
+.main_header img{ max-width: 100%; }
 
+.close{
+  width: 35px;
+  height: 35px;
+  background: #303639;
+  padding: 0!important;
+  border-radius: 50%;
+  min-width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 99999;
+  color: #fff;
+}
 
+/* end modal */
 @media screen and (max-width : 1420px){
     .contact_block2_wrapper{ width: 1240px;  }
     .contact_banner_wrapper { width: 960px!important; }
