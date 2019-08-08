@@ -1,7 +1,7 @@
 
 .mat-card{ box-shadow: none!important; border-radius: 0!important; }
 
-.block1{ background: url(/assets/images/bigdatablock1bg.jpg) no-repeat center center; background-size: cover; display: flex; justify-content: center; align-items: center; text-align: center; min-height: 285px; }
+.block1{ background: url(/assets/images/bigdatablock1bg.jpg) no-repeat center center; background-size: cover; display: flex; justify-content: center; align-items: center; text-align: center; min-height: 310px; }
 .block1 .inner_content .title_1{ font-family: "MontserratBold"; text-transform: uppercase; font-size: 40px; color: #fff; }
 .block1 .inner_content{ width: 1220px; margin: 0 auto; }
 .block1 .inner_content .subtitle_1{ font-family: "MontserratBold"; font-size: 30px;  color:#fff; }

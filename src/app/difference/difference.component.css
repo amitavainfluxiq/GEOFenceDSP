@@ -1,5 +1,5 @@
 .mat-card{ border-radius: 0!important; box-shadow: none!important; padding: 0!important; }
-.diff_block1 {  background:  url("/assets/images/differenceTopblok1bg.jpg") no-repeat!important; background-position: center!important; background-size: cover!important; position: relative; min-height: 360px; }
+.diff_block1 {  background:  url("/assets/images/differenceTopblok1bg.jpg") no-repeat!important; background-position: center!important; background-size: cover!important; position: relative; min-height: 310px; }
 .blk1_content_wrapper{ width: 1240px;  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;}
 .blk1_content_wrapper .blk1_title{ font-family: "MontserratBold"; font-size: 40px; color: #fff; margin-bottom: 30px; text-transform: uppercase; }
 .blk1_content_wrapper .blk1_subtitle{ font-family: "MontserratBold"; font-size: 28px; color: #fff; line-height: 34px;}
@@ -18,9 +18,8 @@
 .diff_block2 .diff_inner2 .bottom_part .rightpart .inner_image{ display: block; background: url(/assets/images/rightpart.png) no-repeat left center; background-size: contain; margin-bottom: 0!important; height: 100%; padding: 20px; box-sizing: border-box; padding-left: 250px; min-height: 200px; }
 .inner_content { font-family: "LatoMedium"; font-size: 18px; color: #fff; margin-bottom: 0!important;}
 .diff_block3{ background: url(/assets/images/diff_block3bg.jpg) no-repeat center center!important; background-size: cover!important; }
-.diff_block3 .diff_inner2 .bottom_part .leftpart{ background-image: linear-gradient(to right, #1d9ff8, #08a4f6, #00a9f4, #03aef0, #18b2ed)!important; padding: 40px;
-  padding-top: 35px;
-  box-sizing: border-box; }
+.diff_block3 .diff_inner2 .bottom_part .leftpart{ background-image: linear-gradient(to right, #1d9ff8, #08a4f6, #00a9f4, #03aef0, #18b2ed)!important; padding: 30px;
+  padding-top: 25px; box-sizing: border-box; }
 .diff_block3 .diff_inner2 .bottom_part .leftpart .inner_image{ background: transparent;}
 .diff_block3 .diff_inner2 .header_part .blk2_title{  color: #fff; font-family: "MontserratBold"; font-size: 36px;  }
 .diff_block3 .diff_inner2 .header_part .blk2_subtitle { color: #fff; font-family: "LatoMedium"; font-size: 20px; line-height: 30px; }
@@ -30,7 +29,7 @@
 }
 .diff_block3 .diff_inner2 .bottom_part .rightpart .inner_content{ border-left: 4px solid #1d9ef8; padding-left: 10px; text-transform: uppercase;
   line-height: 30px;}
-.diff_block3 .diff_inner2 .bottom_part .rightpart .inner_contentbottom{ font-family: 'LatoSemibold'; font-size: 18px; color: #c8d0d6; line-height: 25px; margin-top: auto;}
+.diff_block3 .diff_inner2 .bottom_part .rightpart .inner_contentbottom{ font-family: 'LatoSemibold'; font-size: 18px; color: #c8d0d6; line-height: 25px; margin-top: 15px;}
 
 
 .block4{ background: url(/assets/images/block4bg.jpg) no-repeat center center; background-size: cover; padding: 60px!important;  padding-bottom: 25%!important;}

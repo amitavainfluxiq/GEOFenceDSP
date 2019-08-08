@@ -34,6 +34,10 @@
 .block4 .block3_wrapper .heading { font-family: "MontserratBold"; font-size: 40px; color: #3f3f3f; text-align: center; text-transform: uppercase; margin-bottom: 25px; }
 .block4 .block3_wrapper .subtitle { text-align: center; color:#606365; font-family: "MontserratBold"; text-transform: uppercase;  margin-bottom: 28px; font-size: 30px; }
 
+@media screen and (max-width: 1740px){
+  .blok1 .blk1_container .blk1_subtitle br,
+  .blok1 .blk1_container .blk1_title br{ display: none; }
+}
 @media screen and (max-width: 1600px){
   .block2 .block2_wrapper { width: 90%; }
 }
@@ -55,6 +59,7 @@
   .block2 .block2_wrapper .topblock .innerblock .mat-card-title { font-size: 24px; }
 }
 @media screen and (max-width: 1199px){
+  .block2 .block2_wrapper .topblock .innerblock .mat-card-title br{ display: none;}
 .blok1 .blk1_container .blk1_title br,
 .blok1 .blk1_container .blk1_subtitle br{ display: none; }
 .blok1 { min-height: inherit; }

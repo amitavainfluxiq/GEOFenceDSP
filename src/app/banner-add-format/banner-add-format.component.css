@@ -36,7 +36,7 @@
 .blok3 .inner_contain .top1 .inner .mat-card-title span{ font-family: "LatoRegular"; font-size: 20px; color: #19abef; margin-left: 15px; }
 .blok3 .inner_contain .top1 .inner p{ font-family: "LatoRegular"; font-size: 20px; color: #b1b4b7; border-left: 2px solid #1b89ea; padding-left: 15px; }
 
-
+.block4 {background: url("/assets/images/addBannerBottomshape.png") no-repeat bottom center; background-size: 100%; }
 .block4 .inner_wrapper{ width: 1420px; margin: 0 auto; }
 .block4 .inner_wrapper .title{ color: #393c3f; font-family: "MontserratBold"; font-size: 36px; text-transform: uppercase; text-align: center; margin-top: 15px;}
 .block4 .inner_wrapper .inner_wrap{ display: flex; justify-content: space-between; align-items: center; }
