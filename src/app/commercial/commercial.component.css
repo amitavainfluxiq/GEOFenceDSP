@@ -85,11 +85,12 @@ margin-left: 460px;
     margin: 0 auto;}
 .subcontainerwrapper span img{max-width: 100%;}
 .subcontainerwrapper .listtextwrapper b{text-transform: uppercase; font-family: 'LatoBlack';}
-.subcontainerwrapperimg{background: #d2d2d2; padding: 7px !important; margin: 0;}
+.subcontainerwrapperimg{background: #d2d2d2;   margin: 0;}
 .subcontainerwrapperimg span img{max-width: 100%;width: 100%;}
 .subcontainerwrapperimg span{display: inline-block;}
 .subcontainerwrapperimg span{width: 50%;}
 .subcontainerwrapperimg span:last-child{width: 100%;}
+.containersubwrapperimg { padding-top: 5px!important; }
 .comblock5{background-image: url("../../assets/images/comimg12.png");background-repeat: no-repeat; background-size: cover; background-position: center bottom; background-repeat: no-repeat; padding: 60px 0;}
 .containersubwrapperimg{margin: 0;}
 

@@ -80,10 +80,10 @@
 .homeblock6 .listwrapper {justify-content: center;flex-wrap: wrap;}
 .homeblock6 .col-8{margin-bottom: 35px;width: 185px !important;}
 
-.blackbtn{background-color: #33333a; color: #ffffff; border-radius: 0px; font-size: 20px; font-family: 'LatoRegular'; padding: 10px 50px; border: 0;}
+.blackbtn{background-color: #33333a; color: #ffffff; border-radius: 0px; font-size: 20px; font-family: 'LatoRegular'; padding: 4px 50px 6px; border: 0; border-radius: 2px; }
 
 
-.homeblock7{background-image:url("../../assets/images/homepagebanner6.png"); background-repeat: no-repeat; background-size: cover; position: relative; padding-left: 0; padding-right: 0; background-position: center top; min-height: 340px; display: flex !important; align-items: center;}
+.homeblock7{background-image:url("../../assets/images/homepagebanner6.png"); background-repeat: no-repeat; background-size: cover; position: relative; padding-left: 0; padding-right: 0; background-position: center top; min-height: 270px; display: flex !important; align-items: center;}
 
 .homeblock7 .blackbtn{margin-top: 20px;}
 .homeblock7 .textwrapper{text-align: center;}

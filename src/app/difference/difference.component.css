@@ -39,7 +39,7 @@
 .block4 .blk4_inner_wrapper .blk4_headerpart .blk4subtitle a{ text-decoration: none; color: #1aaaf2; font-family: "LatoSemiBold";  }
 
 .diff_block5 { background: url(/assets/images/diffblk5bg.jpg) no-repeat 100% center; background-size: cover; display: flex; justify-content: space-between; align-items: center;
-  min-height: 285px; padding: 0 300px 0 260px!important; }
+  min-height: 285px; padding: 0 300px 0 10%!important; }
 
   .diff_block5 .content_section { width: 70%; margin-bottom: 0!important;}
   .diff_block5 .content_section .b5_title{ color:#1d1d1d; font-family: 'LatoBold'; text-transform: uppercase; font-size: 36px; margin-bottom: 20px!important; }
@@ -53,7 +53,7 @@
   .diff_block2 .diff_inner2 .bottom_part .leftpart .gradient{ display: block; background-image:  linear-gradient(to right, #546c7b, #ffffff, #5f98b7, #546c7b, #0d2c3e);}
 }
 @media screen and (max-width: 1420px){
-  .diff_block5 { padding: 0 300px 0 135px!important; }
+  .diff_block5 { padding: 0 300px 0 7%!important; }
 }
 @media screen and (max-width: 1400px){
   .diff_block2 .diff_inner2 { width: 95%; }
