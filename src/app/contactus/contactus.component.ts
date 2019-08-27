@@ -54,6 +54,7 @@ export class ContactusComponent implements OnInit {
 
           setTimeout(() =>{}, 2000);
         }
+
       })
 
       console.log(data);

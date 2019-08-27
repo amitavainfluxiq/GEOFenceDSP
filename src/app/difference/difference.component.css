@@ -134,7 +134,7 @@
 }
 
 @media screen and (max-width: 360px){
-.blk1_content_wrapper .blk1_title { font-size: 26px; margin-bottom: 36px; line-height: 30px; }
+.blk1_content_wrapper .blk1_title { font-size: 24px; margin-bottom: 25px; line-height: 30px; }
 .blk1_content_wrapper .blk1_subtitle { font-size: 18px; line-height: 27px; }
 .diff_block2 .diff_inner2 .header_part .blk2_title { font-size: 32px; }
 .diff_block2 .diff_inner2 .header_part .blk2_subtitle { font-size: 20px; line-height: 26px;  margin-bottom: 25px!important; }

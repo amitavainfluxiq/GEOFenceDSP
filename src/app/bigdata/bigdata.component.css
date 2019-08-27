@@ -62,7 +62,9 @@
   .block2 .inner_content .bottom_contentt { background-size: 240%;  padding-top: 55%; background-position: 0% top; }
   .block4 .inner_content .contact_button { width: 100%; }
   .block2,.block3 ,.block4 { padding: 20px; }
+  .block2 .inner_content .title_1 { line-height: 40px; }
 }
 @media screen and (max-width: 360px){
-  .block4 .inner_content .contact_button { width: 100%; word-break: break-word; white-space: normal; line-height: initial; }
+  .block4 .inner_content .contact_button { width: 100%; word-break: break-word; white-space: normal; line-height: initial; padding: 10px 10px 12px; }
+  .block1 .inner_content .subtitle_1 { font-size: 26px; }
 }

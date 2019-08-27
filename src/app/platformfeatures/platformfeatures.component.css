@@ -47,7 +47,7 @@
   .block2 .inner_wrapper2 .content_wrapper .items .image_wrap { height: 100px; display: flex; align-items: center; width: 100%; justify-content: center; }
 .block2 .inner_wrapper2 .content_wrapper .items .image_wrap{  min-height: 80px;}
 .block2 .inner_wrapper2 .content_wrapper .items .inner_head{  font-family: "LatoBold"; font-size:24px; color:#373737; margin: 10px 0; }
-.block2 .inner_wrapper2 .content_wrapper .items .inner_body{ margin: 0; color: #373737; font-size: 18px; font-family: "LatoMedium";  }
+.block2 .inner_wrapper2 .content_wrapper .items .inner_body{ margin: 0; color: #373737; font-size: 18px; font-family: "LatoMedium"; line-height: 26px;  }
 
 .container{width: 1485px; margin: 0 auto; display: block;}
 .textwrapper h1{font-size: 36px; font-family: 'MontserratBold'; color: #393c3f; text-transform: uppercase; margin-top: 0;}
@@ -212,4 +212,7 @@
 @media only screen and (max-width: 480px){
   .homeblock5:after {background-image: linear-gradient(#ffffff00, #ffffff, #00000038);}
   .homeblock5 {min-height: inherit; padding-bottom: 363px;}
+}
+@media only screen and (max-width: 360px){
+.block2 .inner_wrapper2 .title2 { font-size: 22px; }
 }

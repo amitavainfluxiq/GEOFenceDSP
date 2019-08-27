@@ -10,64 +10,55 @@
     <a [routerLink]="['/']"><img src="../../assets/images/logo.png" alt="" class="logo"></a>
 
     <mat-card-subtitle>
-      <button mat-icon-button (click)="toggleNavbar()" fxShow="true" fxHide.gt-sm><mat-icon>menu</mat-icon></button>
+      <button mat-icon-button (click)="toggleNavbar()" fxShow="true" fxHide.gt-sm>
+        <mat-icon>menu</mat-icon>
+      </button>
       <span class="menu-spacer"></span>
 
- <span fxShow="true" class="smlmenudiv" [ngClass]="{ 'show': navbarOpen }">
-      <mat-nav-list fxLayout>
+      <span fxShow="true" class="smlmenudiv" [ngClass]="{ 'show': navbarOpen }">
+        <mat-nav-list fxLayout>
 
-        <mat-list-item fxFlex >
-         <a [routerLink]="['/home']" routerLinkActive="active"> Home</a>
-        </mat-list-item>
+          <mat-list-item fxFlex>
+            <a [routerLink]="['/home']" routerLinkActive="active"> Home</a>
+          </mat-list-item>
 
-        <mat-list-item fxFlex>
-           <a  routerLink="/platform-features" routerLinkActive="active">Platform Features </a>
-        </mat-list-item>
+          <mat-list-item fxFlex>
+            <a routerLink="/platform-features" routerLinkActive="active">Platform Features </a>
+          </mat-list-item>
 
-        <mat-list-item fxFlex>
-           <a [routerLink]="['/The-Difference']" routerLinkActive="active">The Difference  </a>
-         </mat-list-item>
+          <mat-list-item fxFlex>
+            <a [routerLink]="['/The-Difference']" routerLinkActive="active">The Difference </a>
+          </mat-list-item>
 
-        <mat-list-item fxFlex>
-          <a [routerLink]="['/bigdata']" routerLinkActive="active">Big Data  </a>
-        </mat-list-item>
+          <mat-list-item fxFlex>
+            <a [routerLink]="['/bigdata']" routerLinkActive="active">Big Data </a>
+          </mat-list-item>
 
-        <mat-list-item fxFlex>
-          <a [routerLink]="['/commercialGEO']" routerLinkActive="active">Commercial GEO   </a>
-        </mat-list-item>
+          <mat-list-item fxFlex>
+            <a [routerLink]="['/commercialGEO']" routerLinkActive="active">Commercial GEO </a>
+          </mat-list-item>
 
-        <mat-list-item fxFlex>
-          <a [routerLink]="['/mobilemarketing']" routerLinkActive="active">Mobile Marketing   </a>
-        </mat-list-item>
+          <mat-list-item fxFlex>
+            <a [routerLink]="['/mobilemarketing']" routerLinkActive="active">Mobile Marketing </a>
+          </mat-list-item>
 
-        <mat-list-item fxFlex>
-          <a [routerLink]="['/ourteam']" routerLinkActive="active">Our Team  </a>
-        </mat-list-item>
+          <mat-list-item fxFlex>
+            <a [routerLink]="['/ourteam']" routerLinkActive="active">Our Team </a>
+          </mat-list-item>
 
-        <mat-list-item fxFlex>
-          <a [routerLink]="['/getstarted']" routerLinkActive="active">Get Started  </a>
-        </mat-list-item>
+          <mat-list-item fxFlex>
+            <a [routerLink]="['/getstarted']" routerLinkActive="active">Get Started </a>
+          </mat-list-item>
 
+          <mat-list-item fxFlex>
+            <a [routerLink]="['/contactus']" routerLinkActive="active">Contact</a>
+          </mat-list-item>
 
-        <mat-list-item fxFlex>
-          <a [routerLink]="['/contactus']" routerLinkActive="active">Contact</a>
-        </mat-list-item>
-
-        <mat-card-content class="clear"></mat-card-content>
-
-      </mat-nav-list>
-
-
-</span>
-
-
+          <mat-card-content class="clear"></mat-card-content>
+        </mat-nav-list>
+      </span>
     </mat-card-subtitle>
-
-    <a [routerLink]="['/']" class="signuplink">  Sign Up</a>
-
-
-
-
+    <a [routerLink]="['/']" class="signuplink"> Sign Up</a>
 
     <mat-card-content class="clear"></mat-card-content>
   </mat-card-content>

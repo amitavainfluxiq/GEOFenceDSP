@@ -2,7 +2,10 @@
 .container{width: 1485px; margin: 0 auto; display: block;}
 .topbannerblock{background-image:url("../../assets/images/homepagebanner1.jpg"); padding-bottom: 273px; background-repeat: no-repeat; background-size: cover; position: relative; padding-top: 88px;padding-left: 0; padding-right: 0; background-position: center center;}
 .bannerimgwrapper {position: absolute;left: 50%;transform: translatex(-50%); bottom: -14px;}
-
+.textwrapper { text-align: center;}
+.textwrapper .getdemobtn{ background-color: transparent; border-radius: 0px; font-size: 20px; font-family: 'LatoRegular'; padding: 5px 35px;
+  /* border: 1px solid #adadad; */
+  color: #000; font-weight: 600; margin-top: 20px; }
 .textwrapper h1{font-size: 36px; font-family: 'MontserratBold'; color: #393c3f; text-transform: uppercase; margin-top: 0;}
 .textwrapper h1 span{font-size: 30px; font-family: 'MontserratMedium'; color: #82878b; display: block;font-weight: normal; padding: 0px; }
 .textwrapper h1 strong{font-family: 'LatoBlack'; color: #121514; display: block;}
@@ -120,7 +123,7 @@
     .homeblock4 .textwrapper h2 {padding-right: 0;text-align: center;}
     .homeblock4 .textwrapper p {width: 100%; text-align: center;}
     .homeblock3 {
-        background-image: url(../../assets/images/homepagebanner02.jpg); padding: 2% 0; padding-top: 68%;background-color: #a7dbf0;background-size: 118%;}
+        background-image: url(../../assets/images/homepagebanner02.jpg); padding: 2% 0; padding-top: 69.5%;background-color: #a7dbf0;background-size: 118%;}
     .homeblock3 .textwrapper p {padding: 0;}
     .bimg1{margin-top: -20px;}
     .col-2 {width: 100% !important;}
@@ -155,10 +158,11 @@
     .homeblock2 {background-size: 767% 77%;}
 }
 @media only screen and (max-width: 480px){
-    .homeblock5:after {background-image: linear-gradient(#ffffff00, #ffffff, #00000038);}
-    .homeblock5 {min-height: inherit; padding-bottom: 363px;}
+  .homeblock5:after {background-image: linear-gradient(#ffffff00, #ffffff, #00000038);}
+  .homeblock5 {min-height: inherit; padding-bottom: 363px;}
+  .homeblock3{padding-top: 71.5%;}
+  .textwrapper h1 { font-size: 27px; }
 }
-
 
 
 
