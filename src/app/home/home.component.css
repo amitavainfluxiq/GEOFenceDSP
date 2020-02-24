@@ -6,13 +6,14 @@
 .textwrapper .getdemobtn{ background-color: transparent; border-radius: 0px; font-size: 20px; font-family: 'LatoRegular'; padding: 5px 35px;
   /* border: 1px solid #adadad; */
   color: #000; font-weight: 600; margin-top: 20px; }
-.textwrapper h1{font-size: 36px; font-family: 'MontserratBold'; color: #393c3f; text-transform: uppercase; margin-top: 0;}
+  .textwrapper .getdemobtn:hover{ background:#00bfff; color: #fff; }
+.textwrapper h1{font-size: 34px; font-family: 'MontserratBold'; color: #393c3f; text-transform: uppercase; margin-top: 0;}
 .textwrapper h1 span{font-size: 30px; font-family: 'MontserratMedium'; color: #82878b; display: block;font-weight: normal; padding: 0px; }
 .textwrapper h1 strong{font-family: 'LatoBlack'; color: #121514; display: block;}
-.textwrapper p{font-family: 'LatoRegular'; color: #82878b; font-size: 20px;line-height: 30px;}
+.textwrapper p{font-family: 'LatoRegular'; color: #82878b; font-size: 18px;line-height: 28px;}
 .textwrapper h2{font-size: 30px; font-family: 'MontserratBold'; color: #ffffff; text-align: center;}
 
-.topbannerblock .textwrapper h1{width: 726px; margin: 0 auto;font-size: 40px; color: #ffffff;text-align: center;}
+.topbannerblock .textwrapper h1{width: 790px; margin: 0 auto;font-size: 40px; color: #ffffff;text-align: center;}
 .topbannerblock .textwrapper h2{padding: 0 142px;}
 
 .listwrapper{display: flex; width: 100%; justify-content: space-between;}
@@ -33,12 +34,12 @@
 
 .homeblock4{background-image:url("../../assets/images/homepagebanner3.jpg"); background-repeat: no-repeat; background-size: cover; position: relative; padding-left: 0; padding-right: 0; background-position: right top; min-height: 300px; display: flex !important; align-items: center;}
 .homeblock4 .textwrapper h2{text-align: left; font-size: 30px; font-family: 'LatoBold';padding-right: 27%;}
-.homeblock4 .textwrapper p{color: #fff; font-size: 24px; width: 470px;}
+.homeblock4 .textwrapper p{color: #fff; font-size: 32px; width: 950px; line-height: inherit;}
 
 .homeblock5{background-image:url("../../assets/images/homepagebanner4.png"); background-repeat: no-repeat; background-size: cover; position: relative; padding-top: 50px; padding-left: 0; padding-right: 0; background-position: center top; min-height: 790px;}
 .homeblock5 .textwrapper h1{text-align: center; color: #020820;}
 .homeblock5 .textwrapper p{text-align: center; padding: 0 165px; color: #020820;}
-.homeblock5 .textwrapper h1 span{ display: inline-block;  font-size: 44px; font-family: 'MontserratBold'; color: #000; text-transform: uppercase; margin-left:10px; }
+.homeblock5 .textwrapper h1 span{ display: inline-block;  font-size: 44px; font-family: 'MontserratBold'; color: #00bfff; text-transform: uppercase; margin-left:10px; }
 
 .homeblock6 .listwrapper .imgwrapper{background-color: #051532; border: 7px solid #3c4143; box-shadow: 0 0 10px #000;}
 

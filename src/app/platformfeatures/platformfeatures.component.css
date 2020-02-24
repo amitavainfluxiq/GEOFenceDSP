@@ -32,11 +32,11 @@
 .mat-card{ border-radius: 0px!important; box-shadow: none!important; }
 
 
-.block1{ background: url("/assets/images/PFFblok1bg.jpg") no-repeat center; background-size: cover;  padding: 30px;}
+.block1{ background: url("/assets/images/PFFblok1bg.jpg") no-repeat center; background-size: cover;  padding: 75px 30px;}
 .block1 .inner_wrapper1{  width:1200px; margin: 0 auto; }
 .block1 .inner_wrapper1 .title1{  color: #fff; font-family: "MontserratBold"; font-size: 40px; text-transform: uppercase; text-align: center; }
 .block1 .inner_wrapper1 .subtitle1{  color: #fff; font-family: "MontserratRegular"; font-size: 30px; line-height: 32px; text-align: center; margin: 15px 0 5px; }
-
+ 
 .block2{ background:url("/assets/images/PFFblok2bg.jpg") no-repeat center center; background-size: cover; padding:45px;}
 .block2 .inner_wrapper2{ width: 1420px; margin: 0 auto; }
 .block2 .inner_wrapper2 .title2{  font-size: 36px; text-align: center; font-family: "MontserratBold"; color: #373737; text-transform: uppercase; margin: 10px 0 20px 0;}
