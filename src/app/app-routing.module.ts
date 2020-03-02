@@ -16,6 +16,8 @@ import { PrivacyComponent } from './privacy/privacy.component';
 import { TermsAndconditionsComponent } from './terms-andconditions/terms-andconditions.component';
 import { BannerAddFormatComponent } from './banner-add-format/banner-add-format.component';
 import { AddPoliciesComponent } from './add-policies/add-policies.component';
+import { BigDataPartnerIntegrationComponent } from './big-data-partner-integration/big-data-partner-integration.component';
+import { TechnologyAndServicesComponent } from './technology-and-services/technology-and-services.component';
 
 
 
@@ -34,7 +36,9 @@ const appRoutes: Routes = [
     { path: 'privacy@', component: PrivacyComponent},
     { path: 'terms@', component: TermsAndconditionsComponent},
     { path: 'banner-add-format', component: BannerAddFormatComponent},
-    {path: 'add-policies', component: AddPoliciesComponent}
+    {path: 'add-policies', component: AddPoliciesComponent},
+    {path: 'big-data-partner-integration', component: BigDataPartnerIntegrationComponent},
+    {path: 'technology-and-services', component: TechnologyAndServicesComponent}
 
 
 ];

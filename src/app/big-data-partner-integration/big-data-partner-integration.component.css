@@ -1,0 +1,90 @@
+.block1{ background: url("/assets/images/bgpi_banner1.png") no-repeat left top; background-size: cover;  padding: 75px 30px;}
+.block1 .inner_wrapper1{  width:1200px; margin: 0 auto; }
+.block1 .inner_wrapper1 .title1{  color: #fff; font-family: "MontserratBold"; font-size: 40px; text-transform: uppercase; text-align: center; }
+.block1 .inner_wrapper1 .subtitle1{  color: #fff; font-family: "MontserratRegular"; font-size: 30px; line-height: 32px; text-align: center; margin: 15px 0 5px; }
+
+
+.vmblock{
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 40px;
+    box-shadow: none !important;
+    display: block;
+}
+.vmblock img {max-width: 100%;display: block;}
+
+.vmblock.vmblock2{padding: 0; margin: 0;}
+.vmblock.vmblock6{padding: 0; margin: 0;}
+
+.blackbutton{
+    background-color: #33333a;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'MontserratRegular';
+    padding: 4px;
+    width: 240px;
+    border-radius: 2px;    margin: 5px;
+}
+.bluebutton{
+    background-color: #00bfff;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'MontserratRegular';
+    padding: 4px;
+    width: 240px;
+    border-radius: 2px;    margin: 5px;
+}
+
+
+.buttonwrapper {
+    position: absolute;
+    left: 350px;
+    bottom: 20px;
+}
+.vmblock4  .buttonwrapper {
+    left: inherit;
+    right: 350px;
+}
+
+
+@media screen and (max-width: 1800px){
+    .blackbutton, .bluebutton{    width: 200px;}
+  }
+  @media screen and (max-width: 1700px){
+    .block1 .inner_wrapper1 {width: 100%;}
+  .block1 {padding: 75px 30px 75px 310px;}
+  }
+
+  @media screen and (max-width: 1660px){
+    .blackbutton, .bluebutton{width: 175px; font-size: 18px;}
+  }
+  @media screen and (max-width: 1540px){
+    .blackbutton, .bluebutton{width: 145px;font-size: 16px;padding: 0px;}
+    .buttonwrapper{bottom: 13px;}
+  }
+  @media screen and (max-width: 1440px){
+    .buttonwrapper{left: 279px;}
+    .vmblock4 .buttonwrapper {
+        left: inherit;
+        right: 279px;
+    }
+  }
+  @media screen and (max-width: 1300px){
+    .buttonwrapper{left: 244px;}
+    .vmblock4 .buttonwrapper {
+        left: inherit;
+        right: 244px;
+    }
+  }
+  @media screen and (max-width : 1280px){
+    .block1 {
+      padding: 75px 30px 75px 368px;
+  }
+  }
+  @media screen and (max-width : 1240px){
+    .block1 .inner_wrapper1 {
+        width: 100%;
+        margin: 0 auto;
+    }
+}

@@ -30,6 +30,8 @@ import { PrivacyComponent } from './privacy/privacy.component';
 import { TermsAndconditionsComponent } from './terms-andconditions/terms-andconditions.component';
 import { AddPoliciesComponent } from './add-policies/add-policies.component';
 import { BannerAddFormatComponent } from './banner-add-format/banner-add-format.component';
+import { BigDataPartnerIntegrationComponent } from './big-data-partner-integration/big-data-partner-integration.component';
+import { TechnologyAndServicesComponent } from './technology-and-services/technology-and-services.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +51,9 @@ import { BannerAddFormatComponent } from './banner-add-format/banner-add-format.
     TermsAndconditionsComponent,
     AddPoliciesComponent,
     BannerAddFormatComponent,
-    ConfirmComponent
+    ConfirmComponent,
+    BigDataPartnerIntegrationComponent,
+    TechnologyAndServicesComponent
 
   ],
   imports: [

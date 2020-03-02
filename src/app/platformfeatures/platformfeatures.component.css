@@ -91,15 +91,34 @@
 
 @media screen and (max-width: 1700px){
   .block2 .inner_wrapper2 .content_wrapper .items .inner_body br{ display: none;}
+  .block1 .inner_wrapper1 {
+      width: 100%;
+  }
+  .block1 {
+    padding: 75px 30px 75px 440px;
+}
+
+
+
 }
 @media screen and (max-width: 1500px){
   .block2 .inner_wrapper2{ width: 95%; }
   .block2 .inner_wrapper2 .title2 br{ display: none; }
 }
+@media screen and (max-width: 1460px){
+  .block1 {
+    padding: 75px 30px 75px 360px;
+}
+}
 @media screen and (max-width: 1280px){
   .block1 .inner_wrapper1{  width:100%; }
 }
 
+@media screen and (max-width: 1260px){
+  .block1 {
+    padding: 75px 30px 75px 261px;
+}
+}
 @media screen and (max-width: 1199px){
   .block2 .inner_wrapper2 { width: 100%; }
 }
