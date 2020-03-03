@@ -83,17 +83,16 @@
     flex-direction: column;
 }
 .topheader_menu .signuplink {
-  width: 100px;
-  position: absolute;
-  right: 40px;
-  top: 50%;
+    position: absolute;
+    right: 65px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .topheader_menu .mat-nav-list { margin: 0!important; padding: 0px!important; display: flex; justify-content: center;}
 .topheader .mat-card-content {  width: 95%; }
 
 .topheader_menu .mat-nav-list { width: 100%; }
 .topheader_menu .mat-icon-button { position: absolute; right: 10px; top: 13px; }
-.topheader_menu .signuplink { position: fixed; right: 65px; top: 9%;}
 
 .footerblock_wrapper{  width: 100%!important;}
 
@@ -190,7 +189,7 @@
 }
 @media screen and (max-width: 540px){
   .topheader_menu_wrapper a{ width:230px;}
-  .topheader_menu .signuplink { width: 100px; top: 51px; }
+  .topheader_menu .signuplink { width: 100px;  }
 .topheader_menu .mat-icon-button { top: 8px; }
 }
 @media screen and (max-width: 440px){
