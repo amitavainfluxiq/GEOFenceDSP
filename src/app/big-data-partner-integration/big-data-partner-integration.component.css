@@ -36,7 +36,7 @@
     border-radius: 2px;    margin: 5px;
 }
 
-.gencls{margin:0;padding:63px 0!important}
+.gencls{margin:0;padding:62px 0!important}
 .mainwrapper{width:1440px;margin:0 auto;position:relative}
 
 .flex-row-gen{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex!important;-webkit-box-orient:horizontal;-moz-box-orient:horizontal;-webkit-box-direction:normal;-moz-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;width:100%}
@@ -44,9 +44,16 @@
 .sideblock-row-gen{-webkit-box-ordinal-group:2;-moz-box-ordinal-group:2;-ms-flex-order:2;-webkit-order:2;order:2; flex:1;}
 
 .title{text-align:center;font-size:39px;font-family:MontserratBold;color:#3f3f3f;text-transform:uppercase;margin-bottom:14px}
-.gencls .contentblock .title{text-align:center;font-size:20px;font-family:'LatoBold';color:#3f3f3f;text-transform:uppercase;margin-bottom:0px;}
-.gencls .contentblock .subtitle{text-align:center;font-size:30px;font-family:'LatoBold';color:#222;text-transform:inherit;margin:0;margin-bottom:23px}
-.gencls .contentblock p{text-align:center;font-size:24px;font-family:'LatoRegular';color:#222;text-transform:inherit;margin:0 0 20px;}
+
+/* .gencls .contentblock .title{text-align:left;font-size:30px;font-family:'MontserratBold';color:#3f3f3f;text-transform:uppercase;margin-bottom:13px} */
+.gencls .contentblock .title{text-align:left;font-size:20px;font-family:'LatoBold';color:#3f3f3f;text-transform:uppercase;margin-bottom:13px}
+.gencls .contentblock .subtitle{text-align:center;font-size:30px;font-family:'LatoBold';color:#222;text-transform:inherit;margin:0;margin-bottom: 20px;margin-top: 10px;}
+.gencls .contentblock p{text-align:center;font-size:18px;font-family:'LatoRegular';color:#222;text-transform:inherit;margin:0 0 20px;}
+
+/* .gencls .contentblock .subtitle{text-align:left;font-size:18px;font-family:'LatoRegular';color:#222;text-transform:inherit;margin:0;margin-bottom:23px} */
+/* .gencls .contentblock p{text-align:left;font-size:18px;font-family:'LatoRegular';color:#222;text-transform:inherit;margin: 0 0 20px;} */
+
+
 /* .gencls .contentblock .mat-list-base{width:100%}
 .gencls .contentblock .mat-list-base .mat-list-item{background:url(../../assets/images/listicon-4box.png) no-repeat top 5px left;padding-left:10px;height:auto;margin-top:20px;color:var(--white-color-txt);text-align:left;font-size:24px;font-family:'LatoMedium';color:#393c3f}
 .gencls .contentblock .mat-list-base .mat-list-item:first-child{margin-top:0!important} */
@@ -57,7 +64,7 @@
 /* :host /deep/ .mat-list-base .mat-list-item .mat-list-item-content span{display: initial !important;} */
 
 .bigdatapartnerintblock1lists.mat-list-base{display: flex; align-items: stretch; justify-content: center; flex-wrap: wrap;transform: rotate(180deg);flex-direction: row-reverse;position: relative;}
-.bigdatapartnerintblock1lists.mat-list-base .mat-list-item{height: auto;color: #000000;text-align: center;font-size: 20px;font-family: 'LatoRegular';padding: 18px;width: 22%;background-color: #02c8ff; border-radius: 0px;transform: rotate(180deg); margin-bottom: 1px;}
+.bigdatapartnerintblock1lists.mat-list-base .mat-list-item{height: auto;color: #000000;text-align: center;font-size: 18px;font-family: 'LatoRegular';padding: 18px;width: 22%;background-color: #02c8ff; border-radius: 0px;transform: rotate(180deg); margin-bottom: 1px;}
   .bigdatapartnerintblock1lists.mat-list-base .mat-list-item:after{background-color: #fff;width: 1px;height: 90%;content: "";position: absolute;right: 0;top: 50%;transform: translateY(-50%);}
   /* .bigdatapartnerintblock1lists.mat-list-base .mat-list-item:nth-child(3n)+.mat-list-item{clear:both;} */
 
@@ -78,7 +85,7 @@
 
 
 .bigdatapartnerintblock2lists.mat-list-base{width:78%;background: -webkit-linear-gradient(left, rgba(0,0,0,0.4), rgba(0,0,0,0));padding:34px;}
-.bigdatapartnerintblock2lists.mat-list-base .mat-list-item{padding-left:17px;height:auto;margin-top:20px;text-align:left;font-size:20px;font-family:'LatoRegular';color:#fff; border-left:5px solid #00bfff;width: 71%;}
+.bigdatapartnerintblock2lists.mat-list-base .mat-list-item{padding-left:17px;height:auto;margin-top:20px;text-align:left;font-size:18px;font-family:'LatoRegular';color:#fff; border-left:5px solid #00bfff;width: 71%;}
 .bigdatapartnerintblock2lists.mat-list-base .mat-list-item:first-child{margin-top:0!important}
 .bigdatapartnerintblock2lists.mat-list-base .mat-list-item span{font-family:'LatoBold';color:#00bfff;}
 .bigdatapartnerintblock2.mat-card{background:url(../../assets/images/bigdatapartnerintblock2bg.jpg) no-repeat top right;background-size:cover;padding:0;min-height:1px}
@@ -118,7 +125,7 @@
 .bigdatapartnerintblock4.gencls .flex-row-gen.contentblock .sideblock-row-gen .bigdatapartnerintblock4 img{width:100%;}
 
 .bigdatapartnerintblock5 {background-color:#e7eef3;padding: 32px 0!important;}
-.bigdatapartnerintblock5 .title{text-align:center !important}
+.bigdatapartnerintblock5 .title{text-align:center !important;margin-bottom: 0!important;}
 
 @media screen and (max-width: 1800px){
     .blackbutton, .bluebutton{    width: 200px;}
@@ -203,9 +210,7 @@
       background: -webkit-linear-gradient(left, rgba(0,0,0,0.4), rgba(0,0,0,0));
       padding: 20px;
   }
-  .bigdatapartnerintblock2lists.mat-list-base .mat-list-item {
-      width: 100%;
-  }
+  .bigdatapartnerintblock2lists.mat-list-base .mat-list-item {width: 92%;}
   .bigdatapartnerintblock4.gencls .flex-row-gen.contentblock .main-row-gen {
       margin-bottom: 20px;
   }
@@ -214,7 +219,14 @@
   .bigdatapartnerintblock1lists.mat-list-base .mat-list-item {
       width: 21%;
   }
+  .bigdatapartnerintblock5.gencls .contentblock .title br{display: none;}
 }
+@media screen and (max-width : 991px){
+  .bigdatapartnerintblock1lists.mat-list-base .mat-list-item {width: 45%;}
+  .bigdatapartnerintblock1lists.mat-list-base .mat-list-item:after{display: none;}
+  .bigdatapartnerintblock4.gencls .contentblock .main-row-gen p {margin: 15px auto;}
+}
+
 @media screen and (max-width : 776px){
 .bigdatapartnerintblock1lists.mat-list-base .mat-list-item {width: 100%;}
 }
