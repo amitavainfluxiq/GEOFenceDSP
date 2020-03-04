@@ -2,3 +2,10 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.block1{position: relative;}
+.block1 .inner_wrapper1 {z-index: 9;position: relative;}
+.block1:after{width: 100%; height: 100%; background-color: rgba(0,0,0,0.4); position: absolute; top:0; left: 0;content:"";}
+@media screen and (max-width : 1199px) {
+.block1 .inner_wrapper1 .title1 {font-size: 20px !important;}
+.block1 .inner_wrapper1 .subtitle1 {font-size: 18px !important;}
+}

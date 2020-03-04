@@ -53,7 +53,7 @@
 
     .topheader_menu .signuplink {
         width: 100px;
-        margin: -18px 0 0 0;
+        /* margin: -18px 0 0 0; */
     }
 
     .footerblock_wrapper{  width: 1190px!important;}
@@ -84,11 +84,10 @@
     flex-direction: column;
 }
 .topheader_menu .signuplink {
-    position: absolute;
-    right: 65px;
-    top: 50%;
-    transform: translateY(-50%);
+    width: 100px;
+    margin: 0px 0 0 0;
 }
+
 .topheader_menu .mat-nav-list { margin: 0!important; padding: 0px!important; display: flex; justify-content: center;}
 .topheader .mat-card-content {  width: 95%; }
 
@@ -126,6 +125,12 @@
 
 }
 @media screen and (max-width : 991px){
+    .topheader_menu .signuplink {
+    position: absolute;
+    right: 65px;
+    top: 50%;
+    transform: translateY(-50%);
+}
   .topheader .mat-card-content {  text-align: center; }
     .topheader .mat-card-content{width:90%; }
 
